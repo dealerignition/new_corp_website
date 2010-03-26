@@ -1,0 +1,69 @@
+.header_animation {
+	width: 942px;
+	background: url('../images/animation/header-background.jpg');
+	height: 245px;
+	position:relative;
+}
+
+.header_animation div{
+	position:absolute;
+}
+
+#manufacturer{
+	background:url('../images/animation/manufacturer.png');
+	top:24px;
+	left:10px;
+	height:214px;
+	width:229px;
+}
+
+#store{
+	background:url('../images/animation/store.png');
+	width:272px;
+	height:182px;
+	top:44px;
+	left:340px;
+}
+
+#people{
+	background:url('../images/animation/people.png');
+	width:171px;
+	height:145px;
+	top:64px;
+	left:750px;
+}
+
+.bubble_one{
+	background:url('../images/animation/bubble_1.png');
+	width:207px;
+	height:69px;
+	top:10px;
+	left:200px;
+}
+
+.bubble_two{
+	background:url('../images/animation/bubble_2.png');
+	width:210px;
+	height:71px;
+	top:10px;
+	left:580px;
+}
+
+.arrow{
+	background:url('../images/animation/dots_and_arrows.png');
+	height:15px;
+	width:130px;
+	top:105px;
+}
+
+.arrow.active{
+	background-position:130px;
+}
+
+#left_arrow{
+	left:245px;
+}
+
+#right_arrow{
+	left:610px;
+}

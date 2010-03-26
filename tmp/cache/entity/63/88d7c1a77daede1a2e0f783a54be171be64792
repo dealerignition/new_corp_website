@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>Dealer Ignition</title>
+    <link rel="stylesheet" href="stylesheets/layout.css" type="text/css" media="screen" title="layout" charset="utf-8">
+    <script src="javascripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/animation.js" type="text/javascript" charset="utf-8"></script>
+    <script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <div class="navigation">
+        <ul>
+          <li class="home"><a href="#"><span class="logo">Home</span></a></li>
+          <li><a href="file:///Users/chaslemley/Projects/di/new_site/interior.html">Why Dealer Ignition?</a></li>
+          <li><a href="#">Digital Platform</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="header">
+        <div class="header_top">
+          <div class="header_top_left">
+            <a href="#">Request A Demo</a>
+            <p>Or call us at</p>
+            <p class="phone_number">888-344-6483</p>
+          </div>
+          <div class="header_top_right">
+            <a href="#">Login</a>
+            <form class="search">
+              <input id="q" value="Search the site">
+              <input id="search-submit" value="Search" type="image" src="images/search_sprite.png" height="27px" width="27px">
+            </form>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <div class="header_animation">
+            <div id="manufacturer"></div>
+            <div id="store"></div>
+            <div id="people"></div>
+            <div class="bubble_one"></div>
+            <div class="bubble_two"></div>
+            <div class="arrow inactive" id="left_arrow"></div>
+            <div class="arrow active" id="right_arrow"></div>
+          </div>
+        </div>
+        <div class="header_bottom_footer">
+          <a href="#" class="blog">Blog</a>
+          <p><a href="#">Local Dealers Need to Be TOTALLY Google Friendly to Be Successful Online</a></p>
+          <div class="keep_in_touch">
+            <a href="#twitter" class="twitter">twitter</a>
+            <a href="#facebook" class="facebook">facebook</a>
+            <a href="#linkedin" class="linkedin">linkedin</a>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_main">
+          <p>Dealer Ignition gets your products in front of end-users early in the purchase cycle, capturing new leads online and helping you nurture your client base. The web-based software helps you better market on search engines, email and on your own website without you needing an e-commerce guru.</p>
+          <p>Dealer Ignition gets your products in front of end-users early in the purchase cycle, capturing new leads online and helping you nurture your client base. The web-based software helps you better market on search engines, email and on your own website without you needing an e-commerce guru.</p>
+        </div>
+        <div class="content_footer">
+          <ul class="content_footer_icons">
+            <li class="roi icon">
+              <h3>Calculate your ROI</h3>
+              <p>Calculate how much<br />you can save with<br />Dealer Ignition.</p>
+            </li>
+            <li class="white_papers icon">
+              <h3>White Papers</h3>
+              <ul>
+                <li>Interesting article</li>
+                <li>How to find Nemo</li>
+                <li>Setting up adwords</li>
+                <li>How to send email</li>
+              </ul>
+            </li>
+            <li class="case_studies icon">
+              <h3>Case Studies</h3>
+              <p>Click here for a list of<br />some case studies<br />you can use.</p>
+            </li>
+            <li class="interviews last icon">
+              <h3>Interviews</h3>
+              <p>Watch some of our<br />interviews with<br />our clients.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div style="clear:both; height:30px"></div>
+
+    </div>
+    <div class="footer_wrapper">
+      <div class="footer">
+        <div class="footer_nav">
+          <ul class="why_di">
+            <li><a href="#" class="first">Why Dealer Ignition?</a></li>
+            <li><a href="#">Accelerate Marketing</a></li>
+            <li><a href="#">Drive Dealer Sales</a></li>
+            <li><a href="#">Market Online Locally</a></li>
+            <li><a href="#">Campaign Effectiveness</a></li>
+          </ul>
+          <ul class="digital_platform">
+            <li><a href="#" class="first">Digital Platform</a></li>
+            <li><a href="#">Promotional Ads</a></li>
+            <li><a href="#">Email Campaigns</a></li>
+            <li><a href="#">Search Promotions</a></li>
+            <li><a href="#">Something Else</a></li>
+          </ul>
+          <ul class="customers">
+            <li><a href="#" class="first">Customers</a></li>
+            <li><a href="#">Accelerate Marketing</a></li>
+            <li><a href="#">Drive Dealer Sales</a></li>
+            <li><a href="#">Market Online Locally</a></li>
+            <li><a href="#">Campaign Effectiveness</a></li>
+            <li><a href="#">Another link here</a></li>
+          </ul>
+          <ul class="resources">
+            <li><a href="#" class="first">Resources</a></li>
+            <li><a href="#">ROI Calculator</a></li>
+            <li><a href="#">White Papers</a></li>
+            <li><a href="#">Presentations</a></li>
+            <li><a href="#">Webinars</a></li>
+            <li><a href="#">Interviews</a></li>
+          </ul>
+          <ul class="about">
+            <li><a href="#" class="first">About</a></li>
+            <li><a href="#">The Team</a></li>
+            <li><a href="#">Buzz</a></li>
+            <li><a href="#">Who we are</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blah</a></li>
+          </ul>
+        </div>
+        <div class="keep_in_touch">
+          <p>Keep in touch</p>
+          <a href="#twitter" class="twitter">twitter</a>
+          <a href="#facebook" class="facebook">facebook</a>
+          <a href="#linkedin" class="linkedin">linkedin</a>
+        </div>
+        <div class="address">
+          <p>All Content &copy; 2010 Dealer Ignition, LLC. 135 S. Main St. Greenville, SC 29601. USA 1-888-3-IGNITE</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
