@@ -1,0 +1,10 @@
+# Logfile created on Fri Mar 26 09:42:56 -0400 2010
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 09:44:13) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 567ms (DB: 12) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 09:44:14) [GET]
+  Parameters: {"url"=>["styles.css"], "action"=>"show_page", "controller"=>"site"}
+Completed in 41ms (DB: 4) | 200 [http://di.local/styles.css]
