@@ -69,7 +69,12 @@ div.header{
 }
 
 div.header_bottom{
-	padding-top:10px;
+}
+
+div.header_top{
+	margin-bottom:1px;
+	padding-bottom:15px;
+	overflow:hidden;
 }
 
 div.header_top_left{
@@ -152,6 +157,7 @@ div.header_bottom_footer{
 	width:942px;
 	height:42px;
 	background:url('../images/animation_footer.png');
+	margin-bottom:15px;
 }
 
 div.header_bottom_footer div.keep_in_touch{
@@ -191,7 +197,6 @@ div.header_bottom_footer a:hover{
 div.content{
 	clear:left;
 	margin-top:1px;
-	padding-top:20px;
 }
 
 div.content_main p{
