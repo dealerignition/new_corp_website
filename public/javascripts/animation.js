@@ -36,7 +36,7 @@ function animate_frame_one() {
 	
 	
 	setTimeout(function() {
-		$('.bubble_one').show("blind", {direction: 'horizontal'}, ANIMATION_TIME);
+		$('.bubble_one').show("drop", {direction: 'left'}, ANIMATION_TIME);
 	}, ANIMATION_TIME * 3);
 }
 
