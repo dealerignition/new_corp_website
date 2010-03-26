@@ -1366,3 +1366,18 @@ Completed in 85ms (DB: 5) | 200 [http://di.local/resources]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 11:07:59) [GET]
   Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
 Completed in 107ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 11:16:35) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 169ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 11:25:34) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 132ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 11:25:35) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 380ms (DB: 5) | 200 [http://di.local/]
