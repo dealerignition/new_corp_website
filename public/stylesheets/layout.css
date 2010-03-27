@@ -123,8 +123,9 @@ div.header_top_right form{
 
 div.header_top_right form input#q{
 	border:1px solid #e0e0e0;
-	font-size:14px;
-	padding:3px 2px;
+	font-size:12px;
+	padding:4px 2px 4px 2px;
+	font-weight:bold;
 	font-family:"Helvetica Neue", helvetica, arial, sans-serif;
 	background:#f4f4f4;
 	color:#969696;
@@ -204,6 +205,10 @@ div.content_main p{
 	font-size:18px;
 	line-height:26px;
 	padding-bottom:10px;
+}
+
+div.content_footer{
+	overflow:hidden;
 }
 
 ul.content_footer_icons{
@@ -289,6 +294,10 @@ div.footer{
 	padding-left:30px;
 }
 
+div.footer_nav{
+	overflow:hidden;
+}
+
 div.footer ul li a{
 	color:#696969;
 	text-decoration:none;
@@ -307,6 +316,7 @@ div.footer ul li a.first {
 div.keep_in_touch{
 	clear:left;
 	padding-top:30px;
+	overflow:hidden;
 }
 
 div.keep_in_touch p{
@@ -317,7 +327,7 @@ div.keep_in_touch p{
 }
 
 div.address p{
-	padding-top:40px;
+	padding-top:15px;
 	padding-bottom:20px;
 	font-size:10px;
 	color:#696969;

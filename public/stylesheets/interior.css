@@ -32,6 +32,11 @@ div.sidebar li:hover{
 	cursor:pointer;
 }
 
+div.sidebar ul li:first-child{
+	-moz-border-radius-topleft:5px;
+  -webkit-border-radius-topleft:5px;
+}
+
 div.sidebar li h3{
 	color:#2e2e2e;
 	font-size:14px;
@@ -83,6 +88,7 @@ div.interior_content .main_content h3{
 div.two_column, div.one_column{
 	clear:both;
 	padding-top:15px;
+	overflow:hidden;
 }
 
 div.two_column h4, div.one_column h4{
