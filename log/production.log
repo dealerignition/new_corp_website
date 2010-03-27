@@ -1952,3 +1952,118 @@ Completed in 87ms (DB: 5) | 200 [http://di.local/why-dealer-ignition]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 17:10:43) [GET]
   Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
 Completed in 67ms (DB: 4) | 200 [http://di.local/digital-platform]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 17:26:46) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 175ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 17:26:53) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 367ms (DB: 4) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 17:26:57) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 68ms (DB: 5) | 200 [http://di.local/digital-platform]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 17:51:34) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 151ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:47:47) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 170ms (DB: 9) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:47:52) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 387ms (DB: 5) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:50:29) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 67ms (DB: 4) | 200 [http://di.local/digital-platform]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:50:30) [GET]
+  Parameters: {"url"=>["customers"], "action"=>"show_page", "controller"=>"site"}
+Completed in 71ms (DB: 4) | 200 [http://di.local/customers]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:50:31) [GET]
+  Parameters: {"url"=>["resources"], "action"=>"show_page", "controller"=>"site"}
+Completed in 70ms (DB: 4) | 200 [http://di.local/resources]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:50:39) [GET]
+  Parameters: {"url"=>["about"], "action"=>"show_page", "controller"=>"site"}
+Completed in 73ms (DB: 4) | 200 [http://di.local/about]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:50:41) [GET]
+  Parameters: {"url"=>["contact"], "action"=>"show_page", "controller"=>"site"}
+Completed in 137ms (DB: 6) | 200 [http://di.local/contact]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:55:48) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 67ms (DB: 4) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:55:50) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 68ms (DB: 4) | 200 [http://di.local/digital-platform]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:55:51) [GET]
+  Parameters: {"url"=>["customers"], "action"=>"show_page", "controller"=>"site"}
+Completed in 73ms (DB: 4) | 200 [http://di.local/customers]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:55:52) [GET]
+  Parameters: {"url"=>["resources"], "action"=>"show_page", "controller"=>"site"}
+Completed in 70ms (DB: 4) | 200 [http://di.local/resources]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 20:55:55) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 101ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 21:02:06) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 138ms (DB: 4) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 21:02:09) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 92ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 21:03:45) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 67ms (DB: 6) | 200 [http://di.local/digital-platform]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 21:03:46) [GET]
+  Parameters: {"url"=>["customers"], "action"=>"show_page", "controller"=>"site"}
+Completed in 70ms (DB: 5) | 200 [http://di.local/customers]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 21:04:04) [GET]
+  Parameters: {"url"=>["resources"], "action"=>"show_page", "controller"=>"site"}
+Completed in 69ms (DB: 5) | 200 [http://di.local/resources]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 21:04:07) [GET]
+  Parameters: {"url"=>["about"], "action"=>"show_page", "controller"=>"site"}
+Completed in 66ms (DB: 4) | 200 [http://di.local/about]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-26 21:04:09) [GET]
+  Parameters: {"url"=>["contact"], "action"=>"show_page", "controller"=>"site"}
+Completed in 69ms (DB: 7) | 200 [http://di.local/contact]

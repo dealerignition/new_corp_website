@@ -1,5 +1,5 @@
 var ANIMATION_TIME = 500;
-var PAUSE = 2500;
+var PAUSE = 4000;
 
 $(document).ready(function() {
 	prepareAnimation();
