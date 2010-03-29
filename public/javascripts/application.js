@@ -4,10 +4,13 @@ $(document).ready(function() {
 	
 	$('.content-pane').hide();
 	$('.interior_content .main_content .content-pane:first-child').show();
+	$('.interior_content .sidebar li:first-child').addClass('current');
 	
 	$('.interior_content .sidebar li').click(function(event) {
 		
 		$('.content-pane').hide();
+		$('.interior_content .sidebar li').removeClass('current');
+		$(this).addClass('current');
 		$('.interior_content .main_content .' + $(this).attr('id')).show();
 	});
 });

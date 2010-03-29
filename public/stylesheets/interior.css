@@ -32,6 +32,10 @@ div.sidebar li:hover{
 	cursor:pointer;
 }
 
+div.sidebar li.current{
+	background-color:#f4f4f4;
+}
+
 div.sidebar ul li:first-child{
 	-moz-border-radius-topleft:5px;
   -webkit-border-top-left-radius:5px;
