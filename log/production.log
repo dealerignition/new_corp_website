@@ -3019,3 +3019,23 @@ Completed in 236ms (DB: 10) | 200 [http://di.local/]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 11:22:46) [GET]
   Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
 Completed in 225ms (DB: 16) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::WelcomeController#index (for 127.0.0.1 at 2010-03-29 11:29:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/welcome"}
+Redirected to http://di.local/admin/pages
+Completed in 22ms (DB: 2) | 302 Found [http://di.local/admin]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 11:29:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/login
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://di.local/admin/pages]
+
+
+Processing Admin::WelcomeController#login (for 127.0.0.1 at 2010-03-29 11:29:01) [GET]
+  Parameters: {"action"=>"login", "controller"=>"admin/welcome"}
+Rendering template within layouts/application
+Rendering admin/welcome/login
+Completed in 95ms (View: 81, DB: 5) | 200 OK [http://di.local/admin/login]
