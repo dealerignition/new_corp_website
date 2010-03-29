@@ -5298,3 +5298,8 @@ Completed in 100ms (DB: 7) | 200 [http://di.local/]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:44:01) [GET]
   Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
 Completed in 160ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:46:32) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 117ms (DB: 4) | 200 [http://di.local/]
