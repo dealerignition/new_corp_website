@@ -32,9 +32,7 @@ function animate_frame_one() {
 	setTimeout(function() {
 		$('#left_arrow').fadeIn(ANIMATION_TIME);
 	}, ANIMATION_TIME * 2);
-	
-	
-	
+		
 	setTimeout(function() {
 		$('.bubble_one').show("drop", {direction: 'left'}, ANIMATION_TIME);
 	}, ANIMATION_TIME * 3);
