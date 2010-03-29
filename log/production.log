@@ -3004,3 +3004,8 @@ Completed in 936ms (DB: 16) | 200 [http://di.local/]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 11:14:45) [GET]
   Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
 Completed in 197ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 11:19:23) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 128ms (DB: 12) | 200 [http://di.local/digital-platform]
