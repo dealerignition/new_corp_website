@@ -34,7 +34,7 @@ div.sidebar li:hover{
 
 div.sidebar ul li:first-child{
 	-moz-border-radius-topleft:5px;
-  -webkit-border-radius-topleft:5px;
+  -webkit-border-top-left-radius:5px;
 }
 
 div.sidebar li h3{
