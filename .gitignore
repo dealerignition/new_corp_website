@@ -2,3 +2,6 @@ tmp/
 tmp/*
 log/
 *.log
+backup
+backup/*
+.DS_Store
