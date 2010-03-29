@@ -2,21 +2,32 @@ $(document).ready(function() {
 	activateCurrentLink();
 	searchTermReplacement($('input#q'), "Search the site");
 	
-	$('.content-pane').hide();
-	$('.interior_content .main_content .content-pane:first-child').show();
-	$('.interior_content .sidebar li:first-child').addClass('current');
-	
-	$('.interior_content .sidebar li').click(function(event) {
-		
+	current_id = window.location.hash;
+	if(current_id)
+	{
+		selectLink($('#link_' + current_id.substring(1)));
+	}
+	else
+	{
 		$('.content-pane').hide();
-		$('.interior_content .sidebar li').removeClass('current');
-		$(this).addClass('current');
-		$('.interior_content .main_content .' + $(this).attr('id')).show();
+		$('.interior_content .main_content .content-pane:first-child').show();
+		$('.interior_content .sidebar li:first-child').addClass('current');
+	}
+	
+	$('.interior_content .sidebar li').click(function(){
+		selectLink(this);
 	});
+
 });
 
-
-
+function selectLink(current_li) {
+	var current_link = $(current_li).attr('id').substring(5);
+	window.location.hash = current_link;
+	$('.content-pane').hide();
+	$('.interior_content .sidebar li').removeClass('current');
+	$(current_li).addClass('current');
+	$('.interior_content .main_content .' + current_link).show();
+}
 
 function activateCurrentLink() {
 	 var path = location.pathname.substring(1);

@@ -56,19 +56,19 @@ div.sidebar li p{
 	padding-bottom:15px;
 }
 
-div.sidebar li#accelerate-marketing{
+div.sidebar li#link_accelerate-marketing{
 	background-image:url('../images/side_nav_accelerate.png');
 }
 
-div.sidebar li#drive-dealer-sales{
+div.sidebar li#link_drive-dealer-sales{
 	background-image:url('../images/side_nav_drivesales.png');
 }
 
-div.sidebar li#market-online-locally{
+div.sidebar li#link_market-online-locally{
 	background-image:url('../images/side_nav_marketonline.png');
 }
 
-div.sidebar li#measure-effectiveness{
+div.sidebar li#link_measure-effectiveness{
 	background-image:url('../images/side_nav_campaigneffectiveness.png');
 }
 

@@ -5308,3 +5308,531 @@ Completed in 117ms (DB: 4) | 200 [http://di.local/]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:50:43) [GET]
   Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
 Completed in 194ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:54:23) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 97ms (DB: 4) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:54:47) [GET]
+  Parameters: {"url"=>["customers"], "action"=>"show_page", "controller"=>"site"}
+Completed in 74ms (DB: 5) | 200 [http://di.local/customers]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:56:23) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 136ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:10) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 212ms (DB: 9) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:10) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "stylesheets", "layout.css"], "action"=>"show_page", "controller"=>"site"}
+Completed in 218ms (DB: 9) | 404 [http://di.local/why-dealer-ignition/stylesheets/layout.css]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_drivesales.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 214ms (DB: 43) | 404 [http://di.local/why-dealer-ignition/images/large_drivesales.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_marketonline.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 640ms (DB: 10) | 404 [http://di.local/why-dealer-ignition/images/large_marketonline.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:13) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_campaigneffectiveness.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 807ms (DB: 36) | 404 [http://di.local/why-dealer-ignition/images/large_campaigneffectiveness.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "javascripts", "jquery-ui-1.8.custom.min.js"], "action"=>"show_page", "controller"=>"site"}
+Completed in 1831ms (DB: 50) | 404 [http://di.local/why-dealer-ignition/javascripts/jquery-ui-1.8.custom.min.js]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "javascripts", "jquery.min.js"], "action"=>"show_page", "controller"=>"site"}
+Completed in 1822ms (DB: 12) | 404 [http://di.local/why-dealer-ignition/javascripts/jquery.min.js]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "javascripts", "application.js"], "action"=>"show_page", "controller"=>"site"}
+Completed in 1769ms (DB: 15) | 404 [http://di.local/why-dealer-ignition/javascripts/application.js]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "javascripts", "animation.js"], "action"=>"show_page", "controller"=>"site"}
+Completed in 1833ms (DB: 11) | 404 [http://di.local/why-dealer-ignition/javascripts/animation.js]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_accelerate.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 1829ms (DB: 14) | 404 [http://di.local/why-dealer-ignition/images/large_accelerate.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:14) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "javascripts", "jquery-ui-1.8.custom.min.js"], "action"=>"show_page", "controller"=>"site"}
+Completed in 152ms (DB: 10) | 404 [http://di.local/why-dealer-ignition/javascripts/jquery-ui-1.8.custom.min.js]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:14) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "javascripts", "animation.js"], "action"=>"show_page", "controller"=>"site"}
+Completed in 122ms (DB: 8) | 404 [http://di.local/why-dealer-ignition/javascripts/animation.js]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:14) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "javascripts", "application.js"], "action"=>"show_page", "controller"=>"site"}
+Completed in 134ms (DB: 10) | 404 [http://di.local/why-dealer-ignition/javascripts/application.js]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:15) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "search_sprite.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 213ms (DB: 10) | 404 [http://di.local/why-dealer-ignition/images/search_sprite.png]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 14:57:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 30ms (View: 20, DB: 3) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::LayoutsController#edit (for 127.0.0.1 at 2010-03-29 14:57:26) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/edit
+Completed in 47ms (View: 42, DB: 3) | 200 OK [http://di.local/admin/layouts/1/edit]
+
+
+Processing Admin::LayoutsController#update (for 127.0.0.1 at 2010-03-29 14:57:40) [PUT]
+  Parameters: {"layout"=>{"name"=>"Normal", "content_type"=>"", "lock_version"=>"15", "content"=>"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\r\n  \"http://www.w3.org/TR/html4/strict.dtd\">\r\n<html>\r\n  <head>\r\n    <title>Dealer Ignition - <r:title /></title>\r\n    <link rel=\"stylesheet\" href=\"/stylesheets/layout.css\" type=\"text/css\" media=\"screen\" title=\"layout\" charset=\"utf-8\">\r\n    <script src=\"/javascripts/jquery.min.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\r\n    <script src=\"/javascripts/jquery-ui-1.8.custom.min.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\r\n    <script src=\"/javascripts/animation.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\r\n    <script src=\"/javascripts/application.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\r\n  </head>\r\n  <body>\r\n    <div class=\"main_wrapper\">\r\n      <div class=\"navigation\">\r\n        <r:snippet name=\"navigation\" />\r\n      </div>\r\n      <div class=\"header\">\r\n        <r:snippet name=\"header_top\" />\r\n      </div>\r\n      <div class=\"content\">\r\n        <r:content />\r\n      </div>\r\n      <div style=\"clear:both; height:30px\"></div>\r\n    </div>\r\n    <div class=\"footer_wrapper\">\r\n      <div class=\"footer\">\r\n        <div class=\"footer_nav\">\r\n          <r:snippet name=\"footer_navigation\" />\r\n        </div>\r\n        <div class=\"keep_in_touch\">\r\n          <p>Keep in touch</p>\r\n            <a href=\"http://www.twitter.com/dealerignition\" class=\"twitter\" target=\"_blank\">twitter</a>\r\n            <a href=\"http://www.facebook.com/pages/Dealer-Ignition/196769149792\" class=\"facebook\" target=\"_blank\">facebook</a>\r\n            <a href=\"http://www.linkedin.com/in/stevenjwagner\" class=\"linkedin\" target=\"_blank\">linkedin</a>\r\n        </div>\r\n        <div class=\"address\">\r\n          <p>All Content &copy; 2010 Dealer Ignition, LLC. 135 S. Main St. Greenville, SC 29601. USA 1-888-3-IGNITE</p>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </body>\r\n</html>"}, "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"1", "controller"=>"admin/layouts", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/layouts/1/edit
+Completed in 33ms (DB: 2) | 302 Found [http://di.local/admin/layouts/1]
+
+
+Processing Admin::LayoutsController#edit (for 127.0.0.1 at 2010-03-29 14:57:40) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/edit
+Completed in 92ms (View: 85, DB: 3) | 200 OK [http://di.local/admin/layouts/1/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:45) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 126ms (DB: 9) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:45) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "search_sprite.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 384ms (DB: 19) | 404 [http://di.local/why-dealer-ignition/images/search_sprite.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:45) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_marketonline.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 374ms (DB: 57) | 404 [http://di.local/why-dealer-ignition/images/large_marketonline.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:45) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_drivesales.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 452ms (DB: 46) | 404 [http://di.local/why-dealer-ignition/images/large_drivesales.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:45) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_accelerate.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 410ms (DB: 19) | 404 [http://di.local/why-dealer-ignition/images/large_accelerate.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:57:45) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_campaigneffectiveness.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 408ms (DB: 37) | 404 [http://di.local/why-dealer-ignition/images/large_campaigneffectiveness.png]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 14:58:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 245ms (View: 211, DB: 22) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 14:58:26) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 372ms (View: 364, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 14:58:39) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug /> content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"content-pane-link\" id=\"link_<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"7", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 69ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 14:58:39) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 158ms (View: 150, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:58:42) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 142ms (DB: 9) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:58:42) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_drivesales.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 374ms (DB: 64) | 404 [http://di.local/why-dealer-ignition/images/large_drivesales.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:58:42) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_accelerate.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 407ms (DB: 76) | 404 [http://di.local/why-dealer-ignition/images/large_accelerate.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:58:42) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "search_sprite.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 453ms (DB: 61) | 404 [http://di.local/why-dealer-ignition/images/search_sprite.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:58:42) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_campaigneffectiveness.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 384ms (DB: 29) | 404 [http://di.local/why-dealer-ignition/images/large_campaigneffectiveness.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:58:42) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_marketonline.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 418ms (DB: 35) | 404 [http://di.local/why-dealer-ignition/images/large_marketonline.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:59:07) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_marketonline.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 465ms (DB: 9) | 404 [http://di.local/why-dealer-ignition/images/large_marketonline.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:59:07) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "search_sprite.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 533ms (DB: 17) | 404 [http://di.local/why-dealer-ignition/images/search_sprite.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:59:07) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_campaigneffectiveness.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 476ms (DB: 14) | 404 [http://di.local/why-dealer-ignition/images/large_campaigneffectiveness.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:59:07) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_accelerate.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 631ms (DB: 61) | 404 [http://di.local/why-dealer-ignition/images/large_accelerate.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:59:07) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "large_drivesales.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 623ms (DB: 65) | 404 [http://di.local/why-dealer-ignition/images/large_drivesales.png]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 14:59:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 155ms (View: 135, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 14:59:19) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 158ms (View: 149, DB: 5) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 14:59:23) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"17", "page"=>{"class_name"=>"", "slug"=>"accelerate-marketing", "title"=>"Accelerate Marketing", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"21", "content"=>"<img class=\"right\" src=\"/images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic Campaign Deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"3", "breadcrumb"=>"Accelerate Marketing", "parent_id"=>"11", "status_id"=>"100", "description"=>"Deploy campaigns automatically to your dealer network.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 59ms (DB: 2) | 302 Found [http://di.local/admin/pages/17]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 14:59:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 156ms (View: 141, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 14:59:24) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 161ms (View: 152, DB: 6) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 14:59:27) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"/images/large_drivesales.png\" width=\"187\" height=\"123\" alt=\"Drive Dealer Sales\">\r\n<h2>Drive Dealer Sales</h2>\r\n<h3>Designed with Dealers in Mind</h3>\r\n<div class=\"one_column\">\r\n  <p>Brand marketers are busy. Dealers are busy. Bees are busy. Wait. How did that last one make it in there? Ah, never mind.</p>\r\n  <p>You want to be up and running one of these things in minutes? Consider it done, Leroy. We’re talking about MINUTES. Not days. The brand (or Dealer ignition if you prefer) provides all the creative elements, and dealers simply customize their choice of template by adding their logo, special messaging and contact details.</p>\r\n  <p>Online marketing isn’t for those kids with the tape on their glasses who only speak computer anymore. Why? Because we’ve simplified it...specifically for small and medium sized businesses. Technology is our friend. (Except when our phone drops a call, then technology is plain dumb.)  Anyway, we took the complicated stuff and boiled it down to the simple, effective stuff. The result provides brands and dealers a way to collaborate more effectively on co-marketing of a brand’s products.</p>\r\n</div>\r\n"}}, "lock_version"=>"4", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 58ms (DB: 3) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 14:59:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 152ms (View: 137, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 14:59:29) [GET]
+  Parameters: {"action"=>"edit", "id"=>"19", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 157ms (View: 148, DB: 5) | 200 OK [http://di.local/admin/pages/19/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 14:59:32) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"19", "page"=>{"class_name"=>"", "slug"=>"market-online-locally", "title"=>"Market Online Locally", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"23", "content"=>"<img width=\"174\" height=\"170\" src=\"/images/large_marketonline.png\" class=\"right\">\r\n<h2>Market Online Locally</h2>\r\n<h3>\"Clicks to Bricks\"</h3>"}}, "lock_version"=>"2", "breadcrumb"=>"Market Online Locally", "parent_id"=>"11", "status_id"=>"100", "description"=>"Leverage dealers to target marketing funds where they are most.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 53ms (DB: 2) | 302 Found [http://di.local/admin/pages/19]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 14:59:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 157ms (View: 142, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 14:59:34) [GET]
+  Parameters: {"action"=>"edit", "id"=>"20", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 82ms (View: 75, DB: 5) | 200 OK [http://di.local/admin/pages/20/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 14:59:38) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"20", "page"=>{"class_name"=>"", "slug"=>"measure-effectiveness", "title"=>"Measure Effectiveness", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"25", "content"=>"<img class=\"right\" src=\"/images/large_campaigneffectiveness.png\">\r\n<h2>Measure Effectiveness</h2>\r\n<h3>Real-time Insights and Statistics</h3>"}}, "lock_version"=>"3", "breadcrumb"=>"Measure Effectiveness", "parent_id"=>"11", "status_id"=>"100", "description"=>"Dashboard views by campaign allows real-time monitoring of dealer", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 73ms (DB: 2) | 302 Found [http://di.local/admin/pages/20]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 14:59:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 241ms (View: 226, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:59:40) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 138ms (DB: 9) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:59:40) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "search_sprite.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 149ms (DB: 10) | 404 [http://di.local/why-dealer-ignition/images/search_sprite.png]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:01:16) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 219ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:01:24) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 109ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 15:01:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 27ms (View: 16, DB: 3) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-29 15:01:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 23ms (View: 16, DB: 3) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 15:01:35) [GET]
+  Parameters: {"action"=>"edit", "id"=>"3", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 111ms (View: 105, DB: 3) | 200 OK [http://di.local/admin/snippets/3/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-29 15:01:47) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"3", "snippet"=>{"name"=>"navigation", "filter_id"=>"", "lock_version"=>"3", "content"=>"<ul>\r\n  <li class=\"home\"><a href=\"/\"><span class=\"logo\">Home</span></a></li>\r\n  <li><a href=\"/why-dealer-ignition/\">Why Dealer Ignition?</a></li>\r\n  <li><a href=\"/digital-platform/\">Digital Platform</a></li>\r\n  <li><a href=\"/customers/\">Customers</a></li>\r\n  <li><a href=\"/resources/\">Resources</a></li>\r\n  <li><a href=\"http://blog.dealerignition.com\">Blog</a></li>\r\n  <li><a href=\"/about/\">About</a></li>\r\n  <li><a href=\"/contact/\">Contact</a></li>\r\n</ul>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/3/edit
+Completed in 16ms (DB: 2) | 302 Found [http://di.local/admin/snippets/3]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 15:01:47) [GET]
+  Parameters: {"action"=>"edit", "id"=>"3", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 30ms (View: 25, DB: 3) | 200 OK [http://di.local/admin/snippets/3/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:01:51) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 141ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:01:53) [GET]
+  Parameters: {"url"=>["why-dealer-ignition", "images", "search_sprite.png"], "action"=>"show_page", "controller"=>"site"}
+Completed in 132ms (DB: 8) | 404 [http://di.local/why-dealer-ignition/images/search_sprite.png]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 15:02:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 227ms (View: 205, DB: 18) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-29 15:02:07) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 23ms (View: 11, DB: 6) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 15:02:08) [GET]
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 31ms (View: 26, DB: 3) | 200 OK [http://di.local/admin/snippets/6/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-29 15:02:13) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"6", "snippet"=>{"name"=>"header_top", "filter_id"=>"", "lock_version"=>"3", "content"=>"<div class=\"header_top\">\r\n  <div class=\"header_top_left\">\r\n    <a href=\"https://dealerignition.wufoo.com/forms/s7x3k7/\" onclick=\"window.open('https://dealerignition.wufoo.com/forms/s7x3k7/', null, 'height=1044, width=680, toolbar=0, location=0, status=1, scrollbars=1,resizable=1'); return false\" title=\"Request a personalized demo\">Request A Demo</a>\r\n    <p>Or call us at</p>\r\n    <p class=\"phone_number\">888-344-6483</p>\r\n  </div>\r\n  <div class=\"header_top_right\">\r\n    <a href=\"http://coopsem.com/\">Login</a>\r\n    <form class=\"search\">\r\n      <input id=\"q\" value=\"Search the site\">\r\n      <input id=\"search-submit\" value=\"Search\" type=\"image\" src=\"/images/search_sprite.png\" height=\"27px\" width=\"27px\">\r\n    </form>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/6/edit
+Completed in 22ms (DB: 2) | 302 Found [http://di.local/admin/snippets/6]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 15:02:13) [GET]
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 104ms (View: 98, DB: 3) | 200 OK [http://di.local/admin/snippets/6/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:02:15) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 142ms (DB: 11) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:02:27) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 79ms (DB: 7) | 200 [http://di.local/digital-platform/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:02:54) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 103ms (DB: 8) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:02:59) [GET]
+  Parameters: {"url"=>["customers"], "action"=>"show_page", "controller"=>"site"}
+Completed in 76ms (DB: 5) | 200 [http://di.local/customers/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:07:29) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 134ms (DB: 9) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:08:17) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 102ms (DB: 4) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:12:38) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 150ms (DB: 11) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:17:40) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 245ms (DB: 10) | 200 [http://di.local/why-dealer-ignition/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:18:18) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 101ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:18:21) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 81ms (DB: 8) | 200 [http://di.local/digital-platform/]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 15:18:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 235ms (View: 216, DB: 14) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-29 15:18:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 21ms (View: 12, DB: 3) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 15:18:45) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 34ms (View: 29, DB: 3) | 200 OK [http://di.local/admin/snippets/4/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-29 15:19:36) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"4", "snippet"=>{"name"=>"footer_navigation", "filter_id"=>"", "lock_version"=>"0", "content"=>"<ul class=\"why_di\">\r\n  <li><a href=\"/why-dealer-ignition/\" class=\"first\">Why Dealer Ignition?</a></li>\r\n  <li><a href=\"/why-dealer-ignition/accelerate-marketing\">Accelerate Marketing</a></li>\r\n  <li><a href=\"/why-dealer-ignition/drive-dealer-sales\">Drive Dealer Sales</a></li>\r\n  <li><a href=\"/why-dealer-ignition/market-online-locally\">Market Online Locally</a></li>\r\n  <li><a href=\"/why-dealer-ignition/measure-effectiveness\">Measure Effectiveness</a></li>\r\n</ul>\r\n<ul class=\"digital_platform\">\r\n  <li><a href=\"#\" class=\"first\">Digital Platform</a></li>\r\n  <li><a href=\"#\">Promotional Ads</a></li>\r\n  <li><a href=\"#\">Email Campaigns</a></li>\r\n  <li><a href=\"#\">Search Promotions</a></li>\r\n  <li><a href=\"#\">Something Else</a></li>\r\n</ul>\r\n<ul class=\"customers\">\r\n  <li><a href=\"#\" class=\"first\">Customers</a></li>\r\n  <li><a href=\"#\">Accelerate Marketing</a></li>\r\n  <li><a href=\"#\">Drive Dealer Sales</a></li>\r\n  <li><a href=\"#\">Market Online Locally</a></li>\r\n  <li><a href=\"#\">Campaign Effectiveness</a></li>\r\n  <li><a href=\"#\">Another link here</a></li>\r\n</ul>\r\n<ul class=\"resources\">\r\n  <li><a href=\"#\" class=\"first\">Resources</a></li>\r\n  <li><a href=\"#\">ROI Calculator</a></li>\r\n  <li><a href=\"#\">White Papers</a></li>\r\n  <li><a href=\"#\">Presentations</a></li>\r\n  <li><a href=\"#\">Webinars</a></li>\r\n  <li><a href=\"#\">Interviews</a></li>\r\n</ul>\r\n<ul class=\"about\">\r\n  <li><a href=\"#\" class=\"first\">About</a></li>\r\n  <li><a href=\"#\">The Team</a></li>\r\n  <li><a href=\"#\">Buzz</a></li>\r\n  <li><a href=\"#\">Who we are</a></li>\r\n  <li><a href=\"#\">Contact Us</a></li>\r\n  <li><a href=\"#\">Blah</a></li>\r\n</ul>"}, "controller"=>"admin/snippets"}
+Redirected to http://di.local/admin/snippets
+Completed in 24ms (DB: 2) | 302 Found [http://di.local/admin/snippets/4]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-29 15:19:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 19ms (View: 13, DB: 3) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:19:38) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 172ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 15:19:47) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 33ms (View: 29, DB: 3) | 200 OK [http://di.local/admin/snippets/4/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-29 15:19:55) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"4", "snippet"=>{"name"=>"footer_navigation", "filter_id"=>"", "lock_version"=>"1", "content"=>"<ul class=\"why_di\">\r\n  <li><a href=\"/why-dealer-ignition/\" class=\"first\">Why Dealer Ignition?</a></li>\r\n  <li><a href=\"/why-dealer-ignition/#accelerate-marketing\">Accelerate Marketing</a></li>\r\n  <li><a href=\"/why-dealer-ignition/#drive-dealer-sales\">Drive Dealer Sales</a></li>\r\n  <li><a href=\"/why-dealer-ignition/#market-online-locally\">Market Online Locally</a></li>\r\n  <li><a href=\"/why-dealer-ignition/#measure-effectiveness\">Measure Effectiveness</a></li>\r\n</ul>\r\n<ul class=\"digital_platform\">\r\n  <li><a href=\"#\" class=\"first\">Digital Platform</a></li>\r\n  <li><a href=\"#\">Promotional Ads</a></li>\r\n  <li><a href=\"#\">Email Campaigns</a></li>\r\n  <li><a href=\"#\">Search Promotions</a></li>\r\n  <li><a href=\"#\">Something Else</a></li>\r\n</ul>\r\n<ul class=\"customers\">\r\n  <li><a href=\"#\" class=\"first\">Customers</a></li>\r\n  <li><a href=\"#\">Accelerate Marketing</a></li>\r\n  <li><a href=\"#\">Drive Dealer Sales</a></li>\r\n  <li><a href=\"#\">Market Online Locally</a></li>\r\n  <li><a href=\"#\">Campaign Effectiveness</a></li>\r\n  <li><a href=\"#\">Another link here</a></li>\r\n</ul>\r\n<ul class=\"resources\">\r\n  <li><a href=\"#\" class=\"first\">Resources</a></li>\r\n  <li><a href=\"#\">ROI Calculator</a></li>\r\n  <li><a href=\"#\">White Papers</a></li>\r\n  <li><a href=\"#\">Presentations</a></li>\r\n  <li><a href=\"#\">Webinars</a></li>\r\n  <li><a href=\"#\">Interviews</a></li>\r\n</ul>\r\n<ul class=\"about\">\r\n  <li><a href=\"#\" class=\"first\">About</a></li>\r\n  <li><a href=\"#\">The Team</a></li>\r\n  <li><a href=\"#\">Buzz</a></li>\r\n  <li><a href=\"#\">Who we are</a></li>\r\n  <li><a href=\"#\">Contact Us</a></li>\r\n  <li><a href=\"#\">Blah</a></li>\r\n</ul>"}, "controller"=>"admin/snippets"}
+Redirected to http://di.local/admin/snippets
+Completed in 25ms (DB: 4) | 302 Found [http://di.local/admin/snippets/4]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-29 15:19:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 17ms (View: 11, DB: 3) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:19:57) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 103ms (DB: 7) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 15:20:08) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 210ms (DB: 9) | 200 [http://di.local/why-dealer-ignition/]
