@@ -3207,3 +3207,1265 @@ Completed in 106ms (View: 98, DB: 5) | 200 OK [http://di.local/admin/pages/11/ed
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 11:59:57) [GET]
   Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
 Completed in 76ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:05:56) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic campaign deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}, "1"=>{"name"=>"extended", "filter_id"=>"", "_delete"=>"", "id"=>"15", "content"=>""}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 191ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:05:56) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 105ms (View: 94, DB: 7) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:06:10) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 74ms (DB: 5) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:06:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 182ms (View: 167, DB: 9) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#new (for 127.0.0.1 at 2010-03-29 12:06:54) [GET]
+  Parameters: {"page_id"=>"11", "action"=>"new", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/new
+Completed in 190ms (View: 176, DB: 6) | 200 OK [http://di.local/admin/pages/11/children/new]
+
+
+Processing Admin::PagesController#create (for 127.0.0.1 at 2010-03-29 12:07:36) [POST]
+  Parameters: {"action"=>"create", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "page"=>{"class_name"=>"", "slug"=>"accelerate-marketing", "title"=>"Accelerate Marketing", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"", "content"=>"<img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic campaign deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}, "1"=>{"_delete"=>"true", "id"=>""}}, "lock_version"=>"0", "breadcrumb"=>"Accelerate Marketing", "parent_id"=>"11", "status_id"=>"1", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/17/edit
+Completed in 155ms (DB: 5) | 302 Found [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:07:36) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 186ms (View: 175, DB: 8) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:07:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 55ms (View: 43, DB: 8) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:07:39) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 208ms (View: 198, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:07:53) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    \r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}, "1"=>{"_delete"=>"true", "id"=>"15"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 126ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:07:53) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 176ms (View: 169, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:07:57) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 90ms (DB: 5) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:08:32) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each />\r\n    </r:children:each />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 123ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:08:32) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 172ms (View: 166, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:09:13) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each />\r\n       <r:child></r:child>\r\n    </r:children:each />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 56ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:09:13) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 86ms (View: 79, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:09:15) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 96ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:09:21) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each />\r\n       \r\n    </r:children:each />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 70ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:09:21) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 89ms (View: 81, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:09:23) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 77ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:10:03) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each />\r\n       <r:content />\r\n    </r:children:each />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 136ms (DB: 4) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:10:04) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 174ms (View: 86, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:10:05) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 78ms (DB: 5) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:10:16) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each />\r\n       <r:child:content />\r\n    </r:children:each />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 93ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:10:17) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 167ms (View: 159, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:10:18) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 96ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:10:42) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each:child />\r\n       <r:content />\r\n    </r:children:each:child />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 252ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:10:43) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 168ms (View: 157, DB: 8) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:10:44) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 79ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:11:07) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 137ms (View: 123, DB: 9) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:11:09) [GET]
+  Parameters: {"page_id"=>"11", "action"=>"index", "level"=>"1", "controller"=>"admin/pages"}
+Rendering admin/pages/children
+Completed in 20ms (View: 12, DB: 4) | 200 OK [http://di.local/admin/pages/11/children?level=1]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:11:10) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 175ms (View: 165, DB: 7) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:11:19) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"17", "page"=>{"class_name"=>"", "slug"=>"accelerate-marketing", "title"=>"Accelerate Marketing", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"21", "content"=>"<img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic campaign deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"0", "breadcrumb"=>"Accelerate Marketing", "parent_id"=>"11", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/17/edit
+Completed in 181ms (DB: 2) | 302 Found [http://di.local/admin/pages/17]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:11:19) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 106ms (View: 96, DB: 7) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 12:11:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 296ms (View: 276, DB: 13) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::LayoutsController#new (for 127.0.0.1 at 2010-03-29 12:11:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/new
+Completed in 25ms (View: 18, DB: 4) | 200 OK [http://di.local/admin/layouts/new]
+
+
+Processing Admin::LayoutsController#create (for 127.0.0.1 at 2010-03-29 12:11:31) [POST]
+  Parameters: {"layout"=>{"name"=>"Empty", "content_type"=>"", "lock_version"=>"0", "content"=>""}, "commit"=>"Create Layout", "action"=>"create", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "controller"=>"admin/layouts"}
+Redirected to http://di.local/admin/layouts
+Completed in 50ms (DB: 2) | 302 Found [http://di.local/admin/layouts]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 12:11:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 16ms (View: 11, DB: 3) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::LayoutsController#edit (for 127.0.0.1 at 2010-03-29 12:11:32) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/edit
+Completed in 24ms (View: 18, DB: 3) | 200 OK [http://di.local/admin/layouts/1/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:11:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 144ms (View: 129, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 12:11:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 99ms (View: 89, DB: 4) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::LayoutsController#edit (for 127.0.0.1 at 2010-03-29 12:11:44) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/edit
+Completed in 21ms (View: 16, DB: 3) | 200 OK [http://di.local/admin/layouts/4/edit]
+
+
+Processing Admin::LayoutsController#update (for 127.0.0.1 at 2010-03-29 12:11:46) [PUT]
+  Parameters: {"layout"=>{"name"=>"Empty", "content_type"=>"", "lock_version"=>"0", "content"=>"<r:content />"}, "commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"4", "controller"=>"admin/layouts"}
+Redirected to http://di.local/admin/layouts
+Completed in 217ms (DB: 2) | 302 Found [http://di.local/admin/layouts/4]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 12:11:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 29ms (View: 10, DB: 14) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:11:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 141ms (View: 124, DB: 12) | 200 OK [http://di.local/admin/pages]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:11:51) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 75ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:11:53) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 173ms (View: 164, DB: 6) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:11:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 139ms (View: 123, DB: 12) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:11:58) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 88ms (View: 78, DB: 7) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:12:16) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each:child />\r\n       <r:child />\r\n    </r:children:each:child />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 203ms (DB: 4) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:12:17) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 89ms (View: 79, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:12:18) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 78ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:13:23) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each:child />\r\n       <r:title />\r\n    </r:children:each:child />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 64ms (DB: 6) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:13:23) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 164ms (View: 156, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:13:25) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 83ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:13:56) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each:child />\r\n       <r:child /><r:title /></r:child />\r\n    </r:children:each:child />\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 62ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:13:56) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 164ms (View: 156, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:13:58) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 76ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:14:10) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:child /><r:title /></r:child />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 62ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:14:10) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 166ms (View: 158, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:14:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 83ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:14:19) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:child /><r:content /></r:child />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 60ms (DB: 4) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:14:19) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 163ms (View: 155, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:14:22) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 89ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:14:28) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:content />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 60ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:14:28) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 87ms (View: 78, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:14:30) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 88ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:15:40) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:content />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"\">\r\n          <h3><r:title /></h3>\r\n          <p><r:description /></p>\r\n        </li>\r\n      </r:children:each>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 74ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:15:40) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 87ms (View: 80, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:15:41) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 165ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:15:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 154ms (View: 132, DB: 13) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:15:50) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 88ms (View: 79, DB: 6) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:16:02) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"17", "page"=>{"class_name"=>"", "slug"=>"accelerate-marketing", "title"=>"Accelerate Marketing", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"21", "content"=>"<img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic campaign deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"1", "breadcrumb"=>"Accelerate Marketing", "parent_id"=>"11", "status_id"=>"100", "description"=>"Deploy campaigns automatically to your dealer network.", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/17/edit
+Completed in 41ms (DB: 2) | 302 Found [http://di.local/admin/pages/17]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:16:02) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 168ms (View: 161, DB: 5) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:16:04) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 96ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:16:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 136ms (View: 120, DB: 10) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:16:13) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 167ms (View: 156, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:16:54) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:content />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 63ms (DB: 4) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:16:54) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 188ms (View: 180, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:16:56) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 97ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:17:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 139ms (View: 120, DB: 13) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:17:04) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 93ms (View: 84, DB: 6) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:17:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 134ms (View: 118, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:17:12) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 160ms (View: 77, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:17:29) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:content />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 62ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:17:29) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 164ms (View: 156, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:17:45) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:content />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 48ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:17:45) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 89ms (View: 80, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:17:47) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:content />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n      <li class=\"accelerate\">\r\n        <h3>Accelerate Marketing</h3>\r\n        <p>Deploy campaigns automatically to your dealer network.</p>\r\n      </li>\r\n      <li class=\"drivesales\">\r\n        <h3>Drive Dealer Sales</h3>\r\n        <p>Provide dealers the tools services they need to market your products</p>\r\n      </li>\r\n      <li class=\"marketonline\">\r\n        <h3>Market Online Locally</h3>\r\n        <p>Leverage dealers to target marketing funds where they are most</p>\r\n      </li>\r\n      <li class=\"campaigneffectiveness\">\r\n        <h3>Campaign Effectiveness</h3>\r\n        <p>Dashboard views by campaign allows real-time monitoring of dealer</p>\r\n      </li>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 130ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:17:47) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 135ms (View: 123, DB: 9) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:17:49) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 96ms (View: 87, DB: 6) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:17:57) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"17", "page"=>{"class_name"=>"", "slug"=>"accelerate-marketing", "title"=>"Accelerate Marketing", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"21", "content"=>"<img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic campaign deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"2", "breadcrumb"=>"Accelerate Marketing", "parent_id"=>"11", "status_id"=>"100", "description"=>"Deploy campaigns automatically to your dealer network.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/17/edit
+Completed in 60ms (DB: 3) | 302 Found [http://di.local/admin/pages/17]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:17:57) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 164ms (View: 157, DB: 5) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:18:23) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 92ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:18:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 148ms (View: 131, DB: 12) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:18:43) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 162ms (View: 153, DB: 5) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:18:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 134ms (View: 119, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:18:52) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 94ms (View: 84, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:19:00) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <r:content />\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 47ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:19:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 152ms (View: 56, DB: 13) | 200 OK [http://di.local/admin/pages]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:19:02) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 87ms (DB: 6) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:19:34) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 108ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:19:37) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 78ms (DB: 7) | 200 [http://di.local/digital-platform]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:20:02) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 165ms (View: 157, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:20:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 137ms (View: 121, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:20:13) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 87ms (View: 78, DB: 5) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:20:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 143ms (View: 48, DB: 91) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:20:21) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 158ms (View: 150, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:20:44) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug />\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 64ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:20:44) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 169ms (View: 82, DB: 85) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:20:46) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 106ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 12:21:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 19ms (View: 11, DB: 4) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::LayoutsController#new (for 127.0.0.1 at 2010-03-29 12:21:14) [GET]
+  Parameters: {"action"=>"new", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/new
+Completed in 26ms (View: 17, DB: 6) | 200 OK [http://di.local/admin/layouts/new]
+
+
+Processing Admin::LayoutsController#create (for 127.0.0.1 at 2010-03-29 12:21:21) [POST]
+  Parameters: {"layout"=>{"name"=>"Interior Page", "content_type"=>"", "lock_version"=>"0", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug />\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}, "commit"=>"Create Layout", "action"=>"create", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "controller"=>"admin/layouts"}
+Redirected to http://di.local/admin/layouts
+Completed in 16ms (DB: 3) | 302 Found [http://di.local/admin/layouts]
+
+
+Processing Admin::LayoutsController#index (for 127.0.0.1 at 2010-03-29 12:21:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/layouts"}
+Rendering template within layouts/application
+Rendering admin/layouts/index
+Completed in 90ms (View: 85, DB: 3) | 200 OK [http://di.local/admin/layouts]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:21:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 141ms (View: 122, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:21:26) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 87ms (View: 77, DB: 7) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:21:31) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>""}}, "lock_version"=>"1", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"5", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 59ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:21:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 136ms (View: 123, DB: 10) | 200 OK [http://di.local/admin/pages]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:21:33) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 36ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:21:39) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 163ms (View: 156, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:21:46) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug />\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"2", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"5", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 57ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:21:46) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 148ms (View: 135, DB: 10) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:21:48) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 166ms (View: 156, DB: 7) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:21:50) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug />\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"2", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 41ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:21:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 136ms (View: 123, DB: 10) | 200 OK [http://di.local/admin/pages]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:21:53) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 94ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#new (for 127.0.0.1 at 2010-03-29 12:22:52) [GET]
+  Parameters: {"page_id"=>"11", "action"=>"new", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/new
+Completed in 181ms (View: 167, DB: 6) | 200 OK [http://di.local/admin/pages/11/children/new]
+
+
+Processing Admin::PagesController#create (for 127.0.0.1 at 2010-03-29 12:23:23) [POST]
+  Parameters: {"action"=>"create", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"", "content"=>""}, "1"=>{"_delete"=>"true", "id"=>""}}, "lock_version"=>"0", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"1", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 50ms (DB: 3) | 302 Found [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:23:23) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 86ms (View: 79, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:23:26) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 168ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:23:31) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>""}}, "lock_version"=>"0", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"", "layout_id"=>"", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 69ms (DB: 5) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:23:31) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 95ms (View: 87, DB: 6) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:23:34) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 188ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:23:38) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>""}}, "lock_version"=>"1", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 73ms (DB: 6) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:23:41) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 594ms (View: 568, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:23:43) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 182ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:23:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 150ms (View: 133, DB: 10) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:23:52) [GET]
+  Parameters: {"action"=>"edit", "id"=>"17", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 87ms (View: 77, DB: 5) | 200 OK [http://di.local/admin/pages/17/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:23:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 215ms (View: 200, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:23:58) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 84ms (View: 77, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:24:01) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic campaign deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"2", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 70ms (DB: 3) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:24:01) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 169ms (View: 160, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:24:03) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 110ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:24:20) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Accelerate Marketing</h2>\r\n    <h3>Automatic campaign deployment</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"2", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools services they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 51ms (DB: 3) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:24:20) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 176ms (View: 168, DB: 6) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:24:23) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 111ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:26:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 221ms (View: 190, DB: 26) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:26:27) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 247ms (View: 231, DB: 7) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:26:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 169ms (View: 152, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:26:52) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 240ms (View: 229, DB: 7) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:27:03) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_accelerate.png\" width=\"178\" height=\"163\" alt=\"Large Accelerate\">\r\n    <h2>Drive Dealer Sales</h2>\r\n    <h3>Designed with Dealers in Mind</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"3", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools services they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 56ms (DB: 3) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:27:03) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 123ms (View: 114, DB: 6) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:27:05) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 294ms (DB: 16) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:28:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 232ms (View: 218, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:28:45) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 110ms (View: 90, DB: 16) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:29:09) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug /> content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"3", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 163ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:29:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 221ms (View: 206, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:29:31) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 192ms (DB: 12) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:33:30) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 185ms (View: 176, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:33:41) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div id=\"<r:slug />\" class=\"content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"3", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 59ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:33:41) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 90ms (View: 82, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:33:44) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 190ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:36:22) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div id=\"<r:slug />\" class=\"content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"3", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"1", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 158ms (DB: 112) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:36:22) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 98ms (View: 88, DB: 8) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:36:26) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div id=\"<r:slug />\" class=\"content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"4", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 69ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:36:26) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 174ms (View: 165, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:36:27) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 124ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:36:34) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div id=\"<r:slug />\" class=\"content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"5", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"1", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 69ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:36:34) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 180ms (View: 171, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:36:36) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 177ms (DB: 8) | 404 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:36:41) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div id=\"<r:slug />\" class=\"content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"6", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 73ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:36:42) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 174ms (View: 167, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:36:44) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 118ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:37:34) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug /> content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"content-pane-link\" id=\"r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"7", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 55ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:37:34) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 165ms (View: 156, DB: 6) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:37:36) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 114ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:37:48) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug /> content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"content-pane-link\" id=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"7", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/11/edit
+Completed in 51ms (DB: 3) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:37:48) [GET]
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 170ms (View: 163, DB: 5) | 200 OK [http://di.local/admin/pages/11/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:37:49) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 111ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:39:39) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"11", "page"=>{"class_name"=>"", "slug"=>"why-dealer-ignition", "title"=>"Why Dealer Ignition", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"14", "content"=>"<div class=\"interior_content\">\r\n  <div class=\"main_content\">\r\n    <r:children:each>\r\n       <div class=\"<r:slug /> content-pane\">\r\n         <r:content />\r\n       </div>\r\n    </r:children:each>\r\n  </div>\r\n  <div class=\"sidebar\">\r\n    <ul>\r\n      <r:children:each>\r\n        <li class=\"content-pane-link\" id=\"<r:slug />\">\r\n          <h3><r:title /></h3>\r\n          <p><r:meta><r:description tag=\"false\" /></r:meta></p>\r\n        </li>\r\n      </r:children:each>\r\n    </ul>\r\n  </div>\r\n</div>"}}, "lock_version"=>"7", "breadcrumb"=>"Why Dealer Ignition", "parent_id"=>"1", "status_id"=>"100", "description"=>"", "layout_id"=>"1", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 55ms (DB: 2) | 302 Found [http://di.local/admin/pages/11]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:39:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 147ms (View: 134, DB: 10) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:39:40) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 180ms (View: 170, DB: 6) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:40:09) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_drivesales.png\" width=\"178\" height=\"163\" alt=\"Drive Dealer Sales\">\r\n    <h2>Drive Dealer Sales</h2>\r\n    <h3>Designed with Dealers in Mind</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"3", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools services they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 60ms (DB: 3) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:40:09) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 167ms (View: 159, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:40:12) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 111ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:40:36) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_drivesales.png\" width=\"187\" height=\"123\" alt=\"Drive Dealer Sales\">\r\n    <h2>Drive Dealer Sales</h2>\r\n    <h3>Designed with Dealers in Mind</h3>\r\n    <div class=\"one_column\">\r\n      <p>It’s local online marketing simplified – for brands and their dealer networks. It’s all in the form of easy-to-use software that markets and grows dealer sales. And Dealer Ignition just happens to be your friendly partner that makes it all happen. So now your marketing team gets the tools to drive sales directly to the local dealer, the services to develop and launch effective campaigns online, and the information needed to monitor and adjust for maximum ROI.</p>\r\n      <p>In other words, we’re the guys that just took the hassle out of coordinating, launching and monitoring marketing campaigns for brands and took the technical headache out of it for dealers.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"3", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools services they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 61ms (DB: 3) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:40:36) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 159ms (View: 152, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:40:38) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 114ms (DB: 7) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:41:51) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_drivesales.png\" width=\"187\" height=\"123\" alt=\"Drive Dealer Sales\">\r\n    <h2>Drive Dealer Sales</h2>\r\n    <h3>Designed with Dealers in Mind</h3>\r\n    <div class=\"one_column\">\r\n      <p>Brand marketers are busy. Dealers are busy. Bees are busy. Wait. How did that last one make it in there? Ah, never mind.</p>\r\n      <p>You want to be up and running one of these things in minutes? Consider it done, Leroy. We’re talking about MINUTES. Not days. The brand (or Dealer ignition if you prefer) provides all the creative elements, and dealers simply customize their choice of template by adding their logo, special messaging and contact details.</p>\r\n      <p>Online marketing isn’t for those kids with the tape on their glasses who only speak computer anymore. Why? Because we’ve simplified it...specifically for small and medium sized businesses. Technology is our friend. (Except when our phone drops a call, then technology is plain dumb.)  Anyway, we took the complicated stuff and boiled it down to the simple, effective stuff. The result provides brands and dealers a way to collaborate more effectively on co-marketing of a brand’s products.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"3", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools services they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 65ms (DB: 4) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:41:51) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 171ms (View: 164, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:41:54) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 110ms (DB: 10) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:44:15) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_drivesales.png\" width=\"187\" height=\"123\" alt=\"Drive Dealer Sales\">\r\n    <h2>Drive Dealer Sales</h2>\r\n    <h3>Designed with Dealers in Mind</h3>\r\n    <div class=\"one_column\">\r\n      <p>Brand marketers are busy. Dealers are busy. Bees are busy. Wait. How did that last one make it in there? Ah, never mind.</p>\r\n      <p>You want to be up and running one of these things in minutes? Consider it done, Leroy. We’re talking about MINUTES. Not days. The brand (or Dealer ignition if you prefer) provides all the creative elements, and dealers simply customize their choice of template by adding their logo, special messaging and contact details.</p>\r\n      <p>Online marketing isn’t for those kids with the tape on their glasses who only speak computer anymore. Why? Because we’ve simplified it...specifically for small and medium sized businesses. Technology is our friend. (Except when our phone drops a call, then technology is plain dumb.)  Anyway, we took the complicated stuff and boiled it down to the simple, effective stuff. The result provides brands and dealers a way to collaborate more effectively on co-marketing of a brand’s products.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>\r\n    <div class=\"one_column\">\r\n        <h4>Total Flexibility</h4>\r\n        <h5>Simple to use. Easy to access. And as flexible as a Californian yoga instructor.<br />That’s our platform.</h5>\r\n        <p>You want your agency to load the creative directly into the platform? BAM. Done. Do you prefer to control what goes live in-house? Your wish = our command.</p>\r\n        <p>But if you don’t even want the hassle of doing your own creative, we’ve got you covered there as well. In fact, we’ve got a turn-key solution that starts with our Creative Services wizards, who will develop and load your campaign materials, and ends with consistency for your dealers and more sales for everybody. That’s what we call a “win-win,” people.</p>\r\n        <p>The Dealer Ignition platform is infinitely configurable (that means we can do a lot of stuff), with the ability to offer limitless creative templates, email designs, search keyword phrases and page content for dealers to choose from. Make it your own. We’ll do the heavy lifting. Hey, it’s no problem.</p>\r\n    </div>"}}, "lock_version"=>"3", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools services they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages"}
+Redirected to http://di.local/admin/pages
+Completed in 48ms (DB: 2) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 12:44:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 141ms (View: 127, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:44:21) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 178ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:47:08) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 87ms (DB: 6) | 200 [http://di.local/digital-platform]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:47:18) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 89ms (View: 78, DB: 7) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing Admin::PagesController#update (for 127.0.0.1 at 2010-03-29 12:47:30) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"18", "page"=>{"class_name"=>"", "slug"=>"drive-dealer-sales", "title"=>"Drive Dealer Sales", "parts_attributes"=>{"0"=>{"name"=>"body", "filter_id"=>"", "_delete"=>"", "id"=>"22", "content"=>"<img class=\"right\" src=\"images/large_drivesales.png\" width=\"187\" height=\"123\" alt=\"Drive Dealer Sales\">\r\n    <h2>Drive Dealer Sales</h2>\r\n    <h3>Designed with Dealers in Mind</h3>\r\n    <div class=\"one_column\">\r\n      <p>Brand marketers are busy. Dealers are busy. Bees are busy. Wait. How did that last one make it in there? Ah, never mind.</p>\r\n      <p>You want to be up and running one of these things in minutes? Consider it done, Leroy. We’re talking about MINUTES. Not days. The brand (or Dealer ignition if you prefer) provides all the creative elements, and dealers simply customize their choice of template by adding their logo, special messaging and contact details.</p>\r\n      <p>Online marketing isn’t for those kids with the tape on their glasses who only speak computer anymore. Why? Because we’ve simplified it...specifically for small and medium sized businesses. Technology is our friend. (Except when our phone drops a call, then technology is plain dumb.)  Anyway, we took the complicated stuff and boiled it down to the simple, effective stuff. The result provides brands and dealers a way to collaborate more effectively on co-marketing of a brand’s products.</p>\r\n    </div>\r\n    <div class=\"two_column\">\r\n      <div class=\"left\">\r\n        <h4>A Digital Marketing Platform</h4>\r\n        <h5>It’s not as scary as it sounds</h5>\r\n        <p>We all know how it works in the offline world: Sales people visit retailers to negotiate for product positioning and provide print sales materials. Sound familiar? That’s what they call “old school.” And the new school? It’s Dealer Ignition, which means that each new promotion or campaign is broadcast through our easy-to-use platform at the touch of a button, <strong>automatically to the dealer’s website</strong>.</p>\r\n        <p>We’ve cracked the code to that age-old challenge of how to keep dealer promotions up-to-date and consistent. We give brands a suite of <strong>web-based tools</strong> to instantly deploy marketing campaigns across key digital channels such as email, web and search engines. Fancy, don’t you think? As one of our customers told us, “It’s like having an extra staff member.” And we don’t steal any office supplies.</p>\r\n      </div>\r\n      <div class=\"right\">\r\n        <h4>Online Marketing Simplified</h4>\r\n        <h5>Like, really simplified</h5>\r\n        <p>For the brand managers out there, your dealer websites will stay up-to-date and your end customers will see the same promotion across all targeted markets. Dealers simply add one line of code to their sites to show the right promotion at the right time on their site. Yep, we said “one line of code.”  Then brands “syndicate” banner ads across your dealer network, and update them in real-time with no further effort required of dealers. We all know that makes everybody happy.</p>\r\n        <p>And you’re going to love this part: There is no software required for either brands or dealers. We’re not kidding. Dealer Ignition is a totally web-based, Software as a Service (SaaS) technology platform. No need to call out your friendly neighborhood IT guys to install and maintain complicated IT assets (sorry, IT guys). All that’s required is a PC, internet access and a pair of hands.</p>      \r\n      </div>\r\n    </div>"}}, "lock_version"=>"3", "breadcrumb"=>"Drive Dealer Sales", "parent_id"=>"11", "status_id"=>"100", "description"=>"Provide dealers the tools services they need to market your products.", "layout_id"=>"4", "keywords"=>""}, "controller"=>"admin/pages", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/pages/18/edit
+Completed in 134ms (DB: 3) | 302 Found [http://di.local/admin/pages/18]
+
+
+Processing Admin::PagesController#edit (for 127.0.0.1 at 2010-03-29 12:47:30) [GET]
+  Parameters: {"action"=>"edit", "id"=>"18", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/edit
+Completed in 89ms (View: 82, DB: 5) | 200 OK [http://di.local/admin/pages/18/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 12:47:31) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 116ms (DB: 8) | 200 [http://di.local/why-dealer-ignition]

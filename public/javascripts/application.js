@@ -1,7 +1,18 @@
 $(document).ready(function() {
 	activateCurrentLink();
 	searchTermReplacement($('input#q'), "Search the site");
+	
+	$('.content-pane').hide();
+	$('.interior_content .main_content .content-pane:first-child').show();
+	
+	$('.interior_content .sidebar li').click(function(event) {
+		
+		$('.content-pane').hide();
+		$('.interior_content .main_content .' + $(this).attr('id')).show();
+	});
 });
+
+
 
 
 function activateCurrentLink() {
