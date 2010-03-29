@@ -5221,3 +5221,70 @@ Completed in 90ms (DB: 8) | 200 [http://di.local/]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:29:40) [GET]
   Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
 Completed in 156ms (DB: 11) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-29 14:31:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 224ms (View: 206, DB: 11) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-29 14:33:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 19ms (View: 13, DB: 4) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 14:33:02) [GET]
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 41ms (View: 35, DB: 3) | 200 OK [http://di.local/admin/snippets/6/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-29 14:33:38) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"6", "snippet"=>{"name"=>"header_top", "filter_id"=>"", "lock_version"=>"1", "content"=>"<div class=\"header_top\">\r\n  <div class=\"header_top_left\">\r\n    <a href=\"https://dealerignition.wufoo.com/forms/s7x3k7/\" onclick=\"window.open('https://dealerignition.wufoo.com/forms/s7x3k7/', null, 'height=1044, width=680, toolbar=0, location=0, status=1, scrollbars=1,resizable=1'); return false\" title=\"Request a personalized demo\">Request A Demo</a>\r\n    <a href=\"#\">Request A Demo</a>\r\n    <p>Or call us at</p>\r\n    <p class=\"phone_number\">888-344-6483</p>\r\n  </div>\r\n  <div class=\"header_top_right\">\r\n    <a href=\"http://coopsem.com/\">Login</a>\r\n    <form class=\"search\">\r\n      <input id=\"q\" value=\"Search the site\">\r\n      <input id=\"search-submit\" value=\"Search\" type=\"image\" src=\"images/search_sprite.png\" height=\"27px\" width=\"27px\">\r\n    </form>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/6/edit
+Completed in 26ms (DB: 2) | 302 Found [http://di.local/admin/snippets/6]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 14:33:38) [GET]
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 37ms (View: 30, DB: 3) | 200 OK [http://di.local/admin/snippets/6/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:33:41) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 98ms (DB: 7) | 200 [http://di.local/]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-29 14:33:58) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"6", "snippet"=>{"name"=>"header_top", "filter_id"=>"", "lock_version"=>"2", "content"=>"<div class=\"header_top\">\r\n  <div class=\"header_top_left\">\r\n    <a href=\"https://dealerignition.wufoo.com/forms/s7x3k7/\" onclick=\"window.open('https://dealerignition.wufoo.com/forms/s7x3k7/', null, 'height=1044, width=680, toolbar=0, location=0, status=1, scrollbars=1,resizable=1'); return false\" title=\"Request a personalized demo\">Request A Demo</a>\r\n    <p>Or call us at</p>\r\n    <p class=\"phone_number\">888-344-6483</p>\r\n  </div>\r\n  <div class=\"header_top_right\">\r\n    <a href=\"http://coopsem.com/\">Login</a>\r\n    <form class=\"search\">\r\n      <input id=\"q\" value=\"Search the site\">\r\n      <input id=\"search-submit\" value=\"Search\" type=\"image\" src=\"images/search_sprite.png\" height=\"27px\" width=\"27px\">\r\n    </form>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/6/edit
+Completed in 20ms (DB: 2) | 302 Found [http://di.local/admin/snippets/6]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-29 14:33:58) [GET]
+  Parameters: {"action"=>"edit", "id"=>"6", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 29ms (View: 23, DB: 4) | 200 OK [http://di.local/admin/snippets/6/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:34:00) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 101ms (DB: 4) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:35:10) [GET]
+  Parameters: {"url"=>["why-dealer-ignition"], "action"=>"show_page", "controller"=>"site"}
+Completed in 155ms (DB: 9) | 200 [http://di.local/why-dealer-ignition]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-29 14:35:12) [GET]
+  Parameters: {"url"=>["contact"], "action"=>"show_page", "controller"=>"site"}
+Completed in 82ms (DB: 5) | 200 [http://di.local/contact]
