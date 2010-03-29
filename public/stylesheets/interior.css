@@ -119,4 +119,13 @@ div.two_column .right{
 
 div.one_column{
 	clear:left;
+	clear:both;
+}
+
+div.interior_content h5{
+	color:#7F7F7F;
+	font-size:14px;
+	font-weight:normal;
+	padding-top:0;
+	margin-bottom:15px;
 }
