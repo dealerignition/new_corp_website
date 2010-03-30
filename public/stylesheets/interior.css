@@ -145,3 +145,9 @@ div.main_content li{
 	font-size:13px;
 	line-height:19px;
 }
+
+div.main_content blockquote{
+	padding-left:25px;
+	font-size:15px;
+	line-height:20px;
+}
