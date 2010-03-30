@@ -10,7 +10,7 @@ $(document).ready(function() {
 	setTimeout(function() {
 		prepare_for_frame_two();
 		animate_frame_two();
-	}, ANIMATION_TIME * 2 + PAUSE);
+	}, ANIMATION_TIME * 3 + PAUSE);
 	
 	setTimeout(function() {
 		prepare_for_frame_three();
@@ -20,12 +20,12 @@ $(document).ready(function() {
 	setTimeout(function() {
 		prepare_for_frame_four();
 		animate_frame_four();
-	}, ANIMATION_TIME * 10 + PAUSE * 3);
+	}, ANIMATION_TIME * 9 + PAUSE * 3);
 	
 	setTimeout(function() {
 		prepare_for_frame_five();
 		animate_frame_five();
-	}, ANIMATION_TIME * 16 + PAUSE * 4);
+	}, ANIMATION_TIME * 12 + PAUSE * 4);
 	
 	setTimeout(function() {
 		$('.header_animation div').fadeOut(ANIMATION_TIME * 2);
@@ -49,9 +49,6 @@ function animate_frame_one() {
 
 	setTimeout(function() {
 		$('#left_arrow').fadeIn(ANIMATION_TIME);
-	}, ANIMATION_TIME * 2);
-		
-	setTimeout(function() {
 		$('.bubble_one').show("drop", {direction: 'left'}, ANIMATION_TIME);
 	}, ANIMATION_TIME * 3);
 }
@@ -66,11 +63,8 @@ function prepare_for_frame_two() {
 function animate_frame_two() {
 	setTimeout(function() {
 		$('#right_arrow').fadeIn(ANIMATION_TIME);
-	}, ANIMATION_TIME * 2);
-	
-	setTimeout(function() {
 		$('.bubble_two').show("drop", {direction: 'right'}, ANIMATION_TIME);
-	}, ANIMATION_TIME * 4);
+	}, ANIMATION_TIME * 2);
 }
 
 function prepare_for_frame_three() {
@@ -81,11 +75,8 @@ function prepare_for_frame_three() {
 function animate_frame_three() {
 	setTimeout(function() {
 		$('#right_arrow_left').fadeIn(ANIMATION_TIME);
-	}, ANIMATION_TIME * 2);
-	
-	setTimeout(function() {
 		$('.bubble_three').show("drop", {direction: 'right'}, ANIMATION_TIME);
-	}, ANIMATION_TIME * 4);
+	}, ANIMATION_TIME * 2);
 }
 
 function prepare_for_frame_four() {
@@ -98,14 +89,11 @@ function animate_frame_four() {
 	 setTimeout(function() {
 	 	$('#manufacturer').fadeTo(ANIMATION_TIME, 1);
 	 }, ANIMATION_TIME * 2);
-	
-	 setTimeout(function() {
-	 	$('#left_arrow_left').fadeIn(ANIMATION_TIME);
-	 }, ANIMATION_TIME * 4);
 	 
 	setTimeout(function() {
+		$('#left_arrow_left').fadeIn(ANIMATION_TIME);
 		$('.bubble_four').show("drop", {direction: 'left'}, ANIMATION_TIME);
-	}, ANIMATION_TIME * 6);
+	}, ANIMATION_TIME * 4);
 }
 
 function prepare_for_frame_five() {
@@ -116,9 +104,6 @@ function prepare_for_frame_five() {
 function animate_frame_five() {
 	 setTimeout(function() {
 		$('#left_arrow').fadeTo(ANIMATION_TIME, 1);
-	 }, ANIMATION_TIME * 2);
-	
-	 setTimeout(function() {
 		$('.bubble_five').show("drop", {direction: 'left'}, ANIMATION_TIME);
-	 }, ANIMATION_TIME * 4);
+	 }, ANIMATION_TIME * 2);
 }
