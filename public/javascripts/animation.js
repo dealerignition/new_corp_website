@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 function prepareAnimation() {
 	$('#right_arrow, #people, #manufacturer, #store').fadeOut(0);
-	$('.bubble_one, #left_arrow').hide();
+	$('.bubble_one, #left_arrow, .bubble_two').hide();
 }
 
 function prepare_for_frame_one() {
@@ -40,12 +40,14 @@ function animate_frame_one() {
 
 function prepare_for_frame_two() {
 	$('#left_arrow, .bubble_one').fadeTo(ANIMATION_TIME, 0);
-	$('#manufacturer').fadeTo(ANIMATION_TIME, 0.2);
+	$('#manufacturer').fadeTo(ANIMATION_TIME, 0.02);
 	setTimeout(function() { $('#people').fadeTo(ANIMATION_TIME, 1); });
 }
 
 function animate_frame_two() {
 	setTimeout(function() {
 		$('#right_arrow').fadeIn(ANIMATION_TIME);
+		$('.bubble_two').show("drop", {direction: 'right'}, ANIMATION_TIME);
 	}, ANIMATION_TIME * 2);
+	
 }
