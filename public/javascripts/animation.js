@@ -29,12 +29,12 @@ $(document).ready(function() {
 	
 	setTimeout(function() {
 		$('.header_animation div').fadeOut(ANIMATION_TIME * 2);
-
+		setTimeout(function() { $('.last_frame').fadeIn(ANIMATION_TIME*2);}, ANIMATION_TIME * 2);
 	}, ANIMATION_TIME * 20 + PAUSE * 5);
 });
 
 function prepareAnimation() {
-	$('#right_arrow, #people, #manufacturer, #store, #right_arrow_left, #left_arrow_left').fadeOut(0);
+	$('#right_arrow, #people, #manufacturer, #store, #right_arrow_left, #left_arrow_left, .last_frame').fadeOut(0);
 	$('.bubble_one, #left_arrow, .bubble_two, .bubble_three, .bubble_four, .bubble_five').hide();
 }
 

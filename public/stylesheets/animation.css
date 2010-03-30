@@ -103,3 +103,9 @@
 	left:245px;
 	top:120px;
 }
+
+.last_frame{
+	background:url('../images/animation/final_frame.jpg');
+	width:942px;
+	height:245px;
+}
