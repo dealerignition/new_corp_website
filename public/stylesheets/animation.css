@@ -65,11 +65,19 @@
 	left:630px;
 }
 
+.bubble_five{
+	background:url('../images/animation/bubble_5.png');
+	width:259px;
+	height:181px;
+	top:35px;
+	left:630px;
+}
+
 .arrow{
 	background:url('../images/animation/dots_and_arrows.png');
 	height:15px;
 	width:130px;
-	top:105px;
+	top:95px;
 }
 
 .arrow.active{
@@ -87,11 +95,11 @@
 #right_arrow_left{
 	background:url('../images/animation/dots_and_arrows_left.png');
 	left:610px;
-	top:130px;
+	top:120px;
 }
 
 #left_arrow_left{
 	background:url('../images/animation/dots_and_arrows_left.png');
 	left:245px;
-	top:130px;
+	top:120px;
 }

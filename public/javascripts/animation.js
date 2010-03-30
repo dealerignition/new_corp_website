@@ -21,11 +21,21 @@ $(document).ready(function() {
 		prepare_for_frame_four();
 		animate_frame_four();
 	}, ANIMATION_TIME * 10 + PAUSE * 3);
+	
+	setTimeout(function() {
+		prepare_for_frame_five();
+		animate_frame_five();
+	}, ANIMATION_TIME * 16 + PAUSE * 4);
+	
+	setTimeout(function() {
+		$('.header_animation div').fadeOut(ANIMATION_TIME * 2);
+
+	}, ANIMATION_TIME * 20 + PAUSE * 5);
 });
 
 function prepareAnimation() {
 	$('#right_arrow, #people, #manufacturer, #store, #right_arrow_left, #left_arrow_left').fadeOut(0);
-	$('.bubble_one, #left_arrow, .bubble_two, .bubble_three, .bubble_four').hide();
+	$('.bubble_one, #left_arrow, .bubble_two, .bubble_three, .bubble_four, .bubble_five').hide();
 }
 
 function prepare_for_frame_one() {
@@ -96,4 +106,19 @@ function animate_frame_four() {
 	setTimeout(function() {
 		$('.bubble_four').show("drop", {direction: 'left'}, ANIMATION_TIME);
 	}, ANIMATION_TIME * 6);
+}
+
+function prepare_for_frame_five() {
+	$('#left_arrow_left').fadeTo(ANIMATION_TIME, 0);
+	$('.bubble_four').fadeTo(ANIMATION_TIME, 0);
+}
+
+function animate_frame_five() {
+	 setTimeout(function() {
+		$('#left_arrow').fadeTo(ANIMATION_TIME, 1);
+	 }, ANIMATION_TIME * 2);
+	
+	 setTimeout(function() {
+		$('.bubble_five').show("drop", {direction: 'left'}, ANIMATION_TIME);
+	 }, ANIMATION_TIME * 4);
 }

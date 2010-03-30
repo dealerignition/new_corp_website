@@ -5908,3 +5908,212 @@ Completed in 265ms (DB: 9) | 200 [http://di.local/digital-platform/]
 Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 11:41:29) [GET]
   Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
 Completed in 155ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:20:11) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 464ms (DB: 21) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:28:50) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 236ms (DB: 11) | 200 [http://di.local/]
+
+
+Processing Admin::WelcomeController#index (for 127.0.0.1 at 2010-03-30 13:29:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/welcome"}
+Redirected to http://di.local/admin/pages
+Completed in 11ms (DB: 1) | 302 Found [http://di.local/admin]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-30 13:29:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 504ms (View: 461, DB: 29) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-30 13:29:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 26ms (View: 15, DB: 4) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-30 13:29:36) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 336ms (View: 329, DB: 4) | 200 OK [http://di.local/admin/snippets/1/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-30 13:29:47) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"1", "snippet"=>{"name"=>"header_animation", "filter_id"=>"", "lock_version"=>"8", "content"=>"<div class=\"header_bottom\">\r\n  <div class=\"header_animation\">\r\n    <div id=\"manufacturer\"></div>\r\n    <div id=\"store\"></div>\r\n    <div id=\"people\"></div>\r\n    <div class=\"arrow inactive\" id=\"left_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow\"></div>\r\n    <div class=\"bubble_one\"></div>\r\n    <div class=\"bubble_two\"></div>\r\n  </div>\r\n</div>\r\n<div class=\"header_bottom_footer\">\r\n  <a href=\"http://blog.dealerignition.com\" class=\"blog\">Blog</a>\r\n  <p><a href=\"#\">Local Dealers Need to Be TOTALLY Google Friendly to Be Successful Online &raquo;</a></p>\r\n  <div class=\"keep_in_touch\">\r\n    <a href=\"http://www.twitter.com/dealerignition\" class=\"twitter\" target=\"_blank\">twitter</a>\r\n    <a href=\"http://www.facebook.com/pages/Dealer-Ignition/196769149792\" class=\"facebook\" target=\"_blank\">facebook</a>\r\n    <a href=\"http://www.linkedin.com/in/stevenjwagner\" class=\"linkedin\" target=\"_blank\">linkedin</a>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/1/edit
+Completed in 129ms (DB: 2) | 302 Found [http://di.local/admin/snippets/1]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-30 13:29:47) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 52ms (View: 34, DB: 14) | 200 OK [http://di.local/admin/snippets/1/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:29:50) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 173ms (DB: 7) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:37:29) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 144ms (DB: 7) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:43:07) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 169ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-30 13:44:33) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"1", "snippet"=>{"name"=>"header_animation", "filter_id"=>"", "lock_version"=>"9", "content"=>"<div class=\"header_bottom\">\r\n  <div class=\"header_animation\">\r\n    <div id=\"manufacturer\"></div>\r\n    <div id=\"store\"></div>\r\n    <div id=\"people\"></div>\r\n    <div class=\"arrow inactive\" id=\"left_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow\"></div>\r\n    <div class=\"bubble_one\"></div>\r\n    <div class=\"bubble_two\"></div>\r\n    <div class=\"bubble_three\"></div>\r\n  </div>\r\n</div>\r\n<div class=\"header_bottom_footer\">\r\n  <a href=\"http://blog.dealerignition.com\" class=\"blog\">Blog</a>\r\n  <p><a href=\"#\">Local Dealers Need to Be TOTALLY Google Friendly to Be Successful Online &raquo;</a></p>\r\n  <div class=\"keep_in_touch\">\r\n    <a href=\"http://www.twitter.com/dealerignition\" class=\"twitter\" target=\"_blank\">twitter</a>\r\n    <a href=\"http://www.facebook.com/pages/Dealer-Ignition/196769149792\" class=\"facebook\" target=\"_blank\">facebook</a>\r\n    <a href=\"http://www.linkedin.com/in/stevenjwagner\" class=\"linkedin\" target=\"_blank\">linkedin</a>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets"}
+Redirected to http://di.local/admin/snippets
+Completed in 21ms (DB: 3) | 302 Found [http://di.local/admin/snippets/1]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-30 13:44:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 25ms (View: 18, DB: 3) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:44:59) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 115ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-30 13:46:55) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 32ms (View: 25, DB: 3) | 200 OK [http://di.local/admin/snippets/1/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-30 13:47:09) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"1", "snippet"=>{"name"=>"header_animation", "filter_id"=>"", "lock_version"=>"10", "content"=>"<div class=\"header_bottom\">\r\n  <div class=\"header_animation\">\r\n    <div id=\"manufacturer\"></div>\r\n    <div id=\"store\"></div>\r\n    <div id=\"people\"></div>\r\n    <div class=\"arrow inactive\" id=\"left_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow_left\"></div>\r\n    <div class=\"bubble_one\"></div>\r\n    <div class=\"bubble_two\"></div>\r\n    <div class=\"bubble_three\"></div>\r\n  </div>\r\n</div>\r\n<div class=\"header_bottom_footer\">\r\n  <a href=\"http://blog.dealerignition.com\" class=\"blog\">Blog</a>\r\n  <p><a href=\"#\">Local Dealers Need to Be TOTALLY Google Friendly to Be Successful Online &raquo;</a></p>\r\n  <div class=\"keep_in_touch\">\r\n    <a href=\"http://www.twitter.com/dealerignition\" class=\"twitter\" target=\"_blank\">twitter</a>\r\n    <a href=\"http://www.facebook.com/pages/Dealer-Ignition/196769149792\" class=\"facebook\" target=\"_blank\">facebook</a>\r\n    <a href=\"http://www.linkedin.com/in/stevenjwagner\" class=\"linkedin\" target=\"_blank\">linkedin</a>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/1/edit
+Completed in 54ms (DB: 3) | 302 Found [http://di.local/admin/snippets/1]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-30 13:47:09) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 161ms (View: 154, DB: 3) | 200 OK [http://di.local/admin/snippets/1/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:47:20) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 137ms (DB: 10) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:52:52) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 109ms (DB: 4) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 13:54:09) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 96ms (DB: 7) | 200 [http://di.local/digital-platform/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 14:25:32) [GET]
+  Parameters: {"url"=>["digital-platform"], "action"=>"show_page", "controller"=>"site"}
+Completed in 454ms (DB: 7) | 200 [http://di.local/digital-platform/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 14:25:32) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 2028ms (DB: 4) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 14:31:28) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 84ms (DB: 4) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 15:03:37) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 186ms (DB: 6) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 15:08:57) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 371ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-30 15:10:41) [PUT]
+  Parameters: {"commit"=>"Save Changes", "action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"1", "snippet"=>{"name"=>"header_animation", "filter_id"=>"", "lock_version"=>"11", "content"=>"<div class=\"header_bottom\">\r\n  <div class=\"header_animation\">\r\n    <div id=\"manufacturer\"></div>\r\n    <div id=\"store\"></div>\r\n    <div id=\"people\"></div>\r\n    <div class=\"arrow inactive\" id=\"left_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow_left\"></div>\r\n    <div class=\"arrow active\" id=\"left_arrow_left\"></div>\r\n    <div class=\"bubble_one\"></div>\r\n    <div class=\"bubble_two\"></div>\r\n    <div class=\"bubble_three\"></div>\r\n  </div>\r\n</div>\r\n<div class=\"header_bottom_footer\">\r\n  <a href=\"http://blog.dealerignition.com\" class=\"blog\">Blog</a>\r\n  <p><a href=\"#\">Local Dealers Need to Be TOTALLY Google Friendly to Be Successful Online &raquo;</a></p>\r\n  <div class=\"keep_in_touch\">\r\n    <a href=\"http://www.twitter.com/dealerignition\" class=\"twitter\" target=\"_blank\">twitter</a>\r\n    <a href=\"http://www.facebook.com/pages/Dealer-Ignition/196769149792\" class=\"facebook\" target=\"_blank\">facebook</a>\r\n    <a href=\"http://www.linkedin.com/in/stevenjwagner\" class=\"linkedin\" target=\"_blank\">linkedin</a>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets"}
+Redirected to http://di.local/admin/snippets
+Completed in 53ms (DB: 2) | 302 Found [http://di.local/admin/snippets/1]
+
+
+Processing Admin::SnippetsController#index (for 127.0.0.1 at 2010-03-30 15:10:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/index
+Completed in 30ms (View: 24, DB: 4) | 200 OK [http://di.local/admin/snippets]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 15:10:43) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 92ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-30 15:13:29) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 240ms (View: 232, DB: 3) | 200 OK [http://di.local/admin/snippets/1/edit]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-30 15:13:40) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"1", "snippet"=>{"name"=>"header_animation", "filter_id"=>"", "lock_version"=>"12", "content"=>"<div class=\"header_bottom\">\r\n  <div class=\"header_animation\">\r\n    <div id=\"manufacturer\"></div>\r\n    <div id=\"store\"></div>\r\n    <div id=\"people\"></div>\r\n    <div class=\"arrow inactive\" id=\"left_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow_left\"></div>\r\n    <div class=\"arrow active\" id=\"left_arrow_left\"></div>\r\n    <div class=\"bubble_one\"></div>\r\n    <div class=\"bubble_two\"></div>\r\n    <div class=\"bubble_three\"></div>\r\n    <div class=\"bubble_four\"></div>\r\n  </div>\r\n</div>\r\n<div class=\"header_bottom_footer\">\r\n  <a href=\"http://blog.dealerignition.com\" class=\"blog\">Blog</a>\r\n  <p><a href=\"#\">Local Dealers Need to Be TOTALLY Google Friendly to Be Successful Online &raquo;</a></p>\r\n  <div class=\"keep_in_touch\">\r\n    <a href=\"http://www.twitter.com/dealerignition\" class=\"twitter\" target=\"_blank\">twitter</a>\r\n    <a href=\"http://www.facebook.com/pages/Dealer-Ignition/196769149792\" class=\"facebook\" target=\"_blank\">facebook</a>\r\n    <a href=\"http://www.linkedin.com/in/stevenjwagner\" class=\"linkedin\" target=\"_blank\">linkedin</a>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/1/edit
+Completed in 24ms (DB: 2) | 302 Found [http://di.local/admin/snippets/1]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-30 15:13:40) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 28ms (View: 23, DB: 3) | 200 OK [http://di.local/admin/snippets/1/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 15:13:45) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 93ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 15:19:12) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 94ms (DB: 5) | 200 [http://di.local/]
+
+
+Processing Admin::SnippetsController#update (for 127.0.0.1 at 2010-03-30 15:23:41) [PUT]
+  Parameters: {"action"=>"update", "_method"=>"put", "authenticity_token"=>"7Kb/fyDf5VoETPwsrhGs/7R8ezTHMhkNDoDIHQzdaQQ=", "id"=>"1", "snippet"=>{"name"=>"header_animation", "filter_id"=>"", "lock_version"=>"13", "content"=>"<div class=\"header_bottom\">\r\n  <div class=\"header_animation\">\r\n    <div id=\"manufacturer\"></div>\r\n    <div id=\"store\"></div>\r\n    <div id=\"people\"></div>\r\n    <div class=\"arrow inactive\" id=\"left_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow\"></div>\r\n    <div class=\"arrow active\" id=\"right_arrow_left\"></div>\r\n    <div class=\"arrow active\" id=\"left_arrow_left\"></div>\r\n    <div class=\"bubble_one\"></div>\r\n    <div class=\"bubble_two\"></div>\r\n    <div class=\"bubble_three\"></div>\r\n    <div class=\"bubble_four\"></div>\r\n    <div class=\"bubble_five\"></div>\r\n  </div>\r\n</div>\r\n<div class=\"header_bottom_footer\">\r\n  <a href=\"http://blog.dealerignition.com\" class=\"blog\">Blog</a>\r\n  <p><a href=\"#\">Local Dealers Need to Be TOTALLY Google Friendly to Be Successful Online &raquo;</a></p>\r\n  <div class=\"keep_in_touch\">\r\n    <a href=\"http://www.twitter.com/dealerignition\" class=\"twitter\" target=\"_blank\">twitter</a>\r\n    <a href=\"http://www.facebook.com/pages/Dealer-Ignition/196769149792\" class=\"facebook\" target=\"_blank\">facebook</a>\r\n    <a href=\"http://www.linkedin.com/in/stevenjwagner\" class=\"linkedin\" target=\"_blank\">linkedin</a>\r\n  </div>\r\n</div>"}, "controller"=>"admin/snippets", "continue"=>"Save and Continue Editing"}
+Redirected to http://di.local/admin/snippets/1/edit
+Completed in 22ms (DB: 2) | 302 Found [http://di.local/admin/snippets/1]
+
+
+Processing Admin::SnippetsController#edit (for 127.0.0.1 at 2010-03-30 15:23:41) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"admin/snippets"}
+Rendering template within layouts/application
+Rendering admin/snippets/edit
+Completed in 97ms (View: 92, DB: 3) | 200 OK [http://di.local/admin/snippets/1/edit]
+
+
+Processing SiteController#show_page (for 127.0.0.1 at 2010-03-30 15:23:55) [GET]
+  Parameters: {"url"=>"/", "action"=>"show_page", "controller"=>"site"}
+Completed in 89ms (DB: 7) | 200 [http://di.local/]
