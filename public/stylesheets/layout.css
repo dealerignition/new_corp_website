@@ -88,7 +88,7 @@ div.header_top_right{
 	padding-top:7px;
 }
 
-div.header_top_left a{
+div.header_top_left a.request_demo{
 	background:url('../images/request_demo_sprite.png');
 	width:194px;
 	height:41px;
@@ -98,7 +98,7 @@ div.header_top_left a{
 	margin-right:10px;
 }
 
-div.header_top_left a:hover{
+div.header_top_left a.request_demo:hover{
 	background-position:center bottom;
 }
 
