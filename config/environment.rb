@@ -9,6 +9,12 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 require 'radius'
 
+module Radiant
+  module Cache
+    attr_accessor :allow_reload, :default_ttl, :allow_revalidate
+  end
+end
+
 Radiant::Initializer.run do |config|
   # Skip frameworks you're not going to use (only works if using vendor/rails).
   # To use Rails without a database, you must remove the Active Record framework
@@ -47,9 +53,8 @@ Radiant::Initializer.run do |config|
   #  :metastore => "radiant:tmp/cache/meta"
   #    Sets the meta store type and storage location.  We recommend you use
   #    radiant: since this will enable manual expiration and acceleration headers.
-  config.middleware.use ::Radiant::Cache, :allow_reload => true
-
-      
+  config.middleware.use ::Radiant::Cache
+  
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information
   # (create the session table with 'rake db:sessions:create')
