@@ -49,6 +49,14 @@
 	left:30px;
 }
 
+.bubble_three{
+	background:url('../images/animation/bubble_3.png');
+	width:271px;
+	height:137px;
+	top:60px;
+	left:30px;
+}
+
 .arrow{
 	background:url('../images/animation/dots_and_arrows.png');
 	height:15px;
@@ -66,4 +74,10 @@
 
 #right_arrow{
 	left:610px;
+}
+
+#right_arrow_left{
+	background:url('../images/animation/dots_and_arrows_left.png');
+	left:610px;
+	top:130px;
 }
