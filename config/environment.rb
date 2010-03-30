@@ -9,12 +9,6 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 require 'radius'
 
-module Radiant
-  module Cache
-    attr_accessor :allow_reload, :default_ttl, :allow_revalidate
-  end
-end
-
 Radiant::Initializer.run do |config|
   # Skip frameworks you're not going to use (only works if using vendor/rails).
   # To use Rails without a database, you must remove the Active Record framework
