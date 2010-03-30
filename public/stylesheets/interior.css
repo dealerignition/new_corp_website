@@ -133,3 +133,13 @@ div.interior_content h5{
 	padding-top:0;
 	margin-bottom:15px;
 }
+
+div.interior_content ul{
+	padding-left:15px;
+}
+
+div.interior_content li{
+	list-style:disc outside none;
+	margin:0 0 0 25px;
+	color:#626262;
+}
