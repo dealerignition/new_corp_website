@@ -147,7 +147,8 @@ div.main_content li{
 }
 
 div.main_content blockquote{
-	padding-left:25px;
+	padding:8px 25px;
 	font-size:15px;
+	color:#626262;
 	line-height:20px;
 }
