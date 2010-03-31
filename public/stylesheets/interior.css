@@ -153,3 +153,64 @@ div.main_content blockquote{
 	line-height:20px;
 	font-style:italic;
 }
+
+.interior_content table{	
+  font-size:12px;
+	width:588px;
+	color:#333333;
+	margin:10px;
+	
+}
+
+.interior_content table td{
+	border:1px dotted #999;
+	
+
+	padding:0.5em;
+}
+
+.interior_content table thead{
+	border-bottom:medium none;
+	background:none repeat scroll 0 0 #1A1932;
+}
+
+.interior_content table thead th{
+	border-bottom:5px solid #FFFFFF;
+	color:#FFFFFF;
+	font-size:12px;
+	padding:0.5em;
+}
+
+.interior_content table td.title{
+	font-weight:bold;
+	margin-top:1px;
+	width: 65%;
+	
+	padding-left:10px;
+}
+
+.interior_content table .download{
+	text-align:center;
+}
+
+.interior_content table td.download{
+	font-weight:bold;
+}
+
+.interior_content table td.download a{
+	color:#992D15;
+	font-weight:bold;
+	text-decoration:underline;
+	display:block;
+	padding:0.5em 0;
+}
+
+.interior_content table td.download a:hover{
+	color:#FFF;
+	background:#1A1932;
+	text-decoration:none;
+}
+
+.interior_content tr.alt{
+	background:#FAFAFA;
+}
