@@ -7140,3 +7140,31 @@ Processing Admin::SettingsController#index (for 127.0.0.1 at 2010-03-31 13:45:53
 Rendering template within layouts/application
 Rendering admin/settings/index
 Completed in 27ms (View: 17, DB: 4) | 200 OK [http://di.local/admin/settings]
+
+
+Processing Admin::SettingsController#index (for 127.0.0.1 at 2010-03-31 13:47:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/settings"}
+Rendering template within layouts/application
+Rendering admin/settings/index
+Completed in 20ms (View: 11, DB: 6) | 200 OK [http://di.local/admin/settings]
+
+
+Processing Admin::SettingsController#index (for 127.0.0.1 at 2010-03-31 13:47:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/settings"}
+Rendering template within layouts/application
+Rendering admin/settings/index
+Completed in 19ms (View: 11, DB: 4) | 200 OK [http://di.local/admin/settings]
+
+
+Processing Admin::AssetsController#index (for 127.0.0.1 at 2010-03-31 13:47:05) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/assets"}
+Rendering template within layouts/application
+Rendering admin/assets/index
+Completed in 88ms (View: 82, DB: 3) | 200 OK [http://di.local/admin/assets]
+
+
+Processing Admin::SettingsController#index (for 127.0.0.1 at 2010-03-31 13:47:07) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/settings"}
+Rendering template within layouts/application
+Rendering admin/settings/index
+Completed in 17ms (View: 11, DB: 4) | 200 OK [http://di.local/admin/settings]
