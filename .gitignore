@@ -5,3 +5,6 @@ log/
 backup
 backup/*
 .DS_Store
+ignite_development.sqlite
+db/*.sqlite
+db/*.sqlite3
