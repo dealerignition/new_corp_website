@@ -6793,3 +6793,54 @@ Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-31 11:57:25) [
 Rendering template within layouts/application
 Rendering admin/pages/index
 Completed in 482ms (View: 443, DB: 16) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-31 12:02:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 264ms (View: 239, DB: 18) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::ExtensionsController#index (for 127.0.0.1 at 2010-03-31 12:02:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/extensions"}
+Rendering template within layouts/application
+Rendering admin/extensions/index
+Completed in 37ms (View: 16, DB: 3) | 200 OK [http://di.local/admin/extensions]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-31 12:02:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/assets"}
+
+NameError (uninitialized constant Admin::AssetsController):
+  passenger (2.2.8) lib/phusion_passenger/rack/request_handler.rb:92:in `process_request'
+  passenger (2.2.8) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.8) lib/phusion_passenger/railz/application_spawner.rb:385:in `start_request_handler'
+  passenger (2.2.8) lib/phusion_passenger/railz/application_spawner.rb:343:in `handle_spawn_application'
+  passenger (2.2.8) lib/phusion_passenger/utils.rb:184:in `safe_fork'
+  passenger (2.2.8) lib/phusion_passenger/railz/application_spawner.rb:341:in `handle_spawn_application'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.8) lib/phusion_passenger/railz/application_spawner.rb:209:in `start'
+  passenger (2.2.8) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.8) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.8) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.8) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.8) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.8) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::SettingsController#index (for 127.0.0.1 at 2010-03-31 12:04:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/settings"}
+Rendering template within layouts/application
+Rendering admin/settings/index
+Completed in 28ms (View: 18, DB: 4) | 200 OK [http://di.local/admin/settings]
