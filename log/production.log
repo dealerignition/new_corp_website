@@ -7085,3 +7085,58 @@ Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-31 12:25:12) [
 Rendering template within layouts/application
 Rendering admin/pages/index
 Completed in 255ms (View: 231, DB: 18) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-31 12:27:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 489ms (View: 426, DB: 16) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-31 12:29:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 236ms (View: 214, DB: 15) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::ExtensionsController#index (for 127.0.0.1 at 2010-03-31 12:30:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/extensions"}
+Rendering template within layouts/application
+Rendering admin/extensions/index
+Completed in 33ms (View: 13, DB: 3) | 200 OK [http://di.local/admin/extensions]
+
+
+Processing Admin::ExtensionsController#index (for 127.0.0.1 at 2010-03-31 12:30:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/extensions"}
+Rendering template within layouts/application
+Rendering admin/extensions/index
+Completed in 99ms (View: 77, DB: 4) | 200 OK [http://di.local/admin/extensions]
+
+
+Processing Admin::WelcomeController#index (for 127.0.0.1 at 2010-03-31 13:45:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/welcome"}
+Redirected to http://di.local/admin/pages
+Completed in 19ms (DB: 1) | 302 Found [http://di.local/admin]
+
+
+Processing Admin::PagesController#index (for 127.0.0.1 at 2010-03-31 13:45:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/pages"}
+Rendering template within layouts/application
+Rendering admin/pages/index
+Completed in 454ms (View: 430, DB: 15) | 200 OK [http://di.local/admin/pages]
+
+
+Processing Admin::AssetsController#index (for 127.0.0.1 at 2010-03-31 13:45:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/assets"}
+Rendering template within layouts/application
+Rendering admin/assets/index
+Completed in 103ms (View: 28, DB: 3) | 200 OK [http://di.local/admin/assets]
+
+
+Processing Admin::SettingsController#index (for 127.0.0.1 at 2010-03-31 13:45:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin/settings"}
+Rendering template within layouts/application
+Rendering admin/settings/index
+Completed in 27ms (View: 17, DB: 4) | 200 OK [http://di.local/admin/settings]
