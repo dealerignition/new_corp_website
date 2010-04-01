@@ -72,6 +72,30 @@ div.sidebar li#link_measure-effectiveness{
 	background-image:url('../images/side_nav_campaigneffectiveness.png');
 }
 
+div.sidebar li#link_whitepapers{
+	background-image:url('../images/side_nav_whitepapers.png');
+}
+
+div.sidebar li#link_webinars{
+	background-image:url('../images/side_nav_webinars.png');
+}
+
+div.sidebar li#link_interviews{
+	background-image:url('../images/side_nav_interviews.png');
+}
+
+div.sidebar li#link_case-studies{
+	background-image:url('../images/side_nav_casestudies.png');
+}
+
+div.sidebar li#link_roi-calculator{
+	background-image:url('../images/side_nav_roi.png');
+}
+
+div.sidebar li#link_presentations{
+	background-image:url('../images/side_nav_presentations.png');
+}
+
 img.right{
 	float:right;
 }
