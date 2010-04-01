@@ -96,6 +96,26 @@ div.sidebar li#link_presentations{
 	background-image:url('../images/side_nav_presentations.png');
 }
 
+div.sidebar li#link_banner-ads{
+	background-image:url('../images/side_nav_bannerads.png');
+}
+
+div.sidebar li#link_search-engine-ads{
+	background-image:url('../images/side_nav_search.png');
+}
+
+div.sidebar li#link_email-marketing{
+	background-image:url('../images/side_nav_email.png');
+}
+
+div.sidebar li#link_landing-pages{
+	background-image:url('../images/side_nav_pages.png');
+}
+
+div.sidebar li#link_promotional-windows{
+	background-image:url('../images/side_nav_promotionwindows.png');
+}
+
 img.right{
 	float:right;
 }
