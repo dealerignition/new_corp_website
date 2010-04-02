@@ -161,7 +161,7 @@ div.two_column, div.one_column{
 
 div.two_column h4, div.one_column h4{
 	color:#2e2e2e;
-	
+	padding-top:10px;
 	font-size:18px;
 	padding-bottom:4px;
 }
