@@ -54,7 +54,7 @@ div.sidebar li h3{
 }
 
 div.sidebar li p{
-	color:#626262;
+	color:#7F7F7F;
 	font-size:12px;
 	padding-left:58px;
 	padding-top:2px;
@@ -131,6 +131,7 @@ div.interior_content h2{
 	font-size:36px;
 	line-height:36px;
 	color:#222342;
+	letter-spacing:-1px;
 }
 
 div.interior_content .main_content h3{
