@@ -169,8 +169,8 @@ div.two_column h4, div.one_column h4{
 div.two_column p, div.one_column p{
 	clear:both;
 	color:#626262;
-	font-size:13px;
-	line-height:20px;
+	font-size:14px;
+	line-height:22px;
 	padding-bottom:15px;
 }
 
@@ -206,8 +206,8 @@ div.main_content li{
 	list-style:decimal outside none;
 	margin:0 0 8px 25px;
 	color:#626262;
-	font-size:13px;
-	line-height:19px;
+	font-size:14px;
+	line-height:22px;
 }
 
 div.main_content ol{
@@ -217,7 +217,7 @@ div.main_content ol{
 div.main_content ol li{
 	margin:0 0 8px 25px;
 	color:#626262;
-	font-size:13px;
+	font-size:14px;
 	line-height:19px;
 }
 
@@ -230,7 +230,7 @@ div.main_content blockquote{
 }
 
 .interior_content table{	
-  font-size:12px;
+  font-size:13px;
 	width:588px;
 	color:#333333;
 	margin:10px;
