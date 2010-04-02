@@ -162,14 +162,14 @@ div.two_column, div.one_column{
 div.two_column h4, div.one_column h4{
 	color:#2e2e2e;
 	
-	font-size:16px;
+	font-size:17px;
 	padding-bottom:4px;
 }
 
 div.two_column p, div.one_column p{
 	clear:both;
 	color:#626262;
-	font-size:14px;
+	font-size:15px;
 	line-height:22px;
 	padding-bottom:15px;
 }
@@ -203,10 +203,10 @@ div.main_content ul{
 }
 
 div.main_content li{
-	list-style:decimal outside none;
+	list-style:disc outside none;
 	margin:0 0 8px 25px;
 	color:#626262;
-	font-size:14px;
+	font-size:15px;
 	line-height:22px;
 }
 
@@ -215,10 +215,7 @@ div.main_content ol{
 }
 
 div.main_content ol li{
-	margin:0 0 8px 25px;
-	color:#626262;
-	font-size:14px;
-	line-height:19px;
+	list-style:decimal outside none;
 }
 
 div.main_content blockquote{
