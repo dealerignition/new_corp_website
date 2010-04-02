@@ -122,6 +122,18 @@ div.sidebar li#link_promotional-windows{
 	background-image:url('../images/side_nav_promotionwindows.png');
 }
 
+div.sidebar li#link_brands-manufacturers-vendors{
+	background-image:url('../images/side_nav_brand.png');
+}
+
+div.sidebar li#link_dealers-resellers-affiliates{
+	background-image:url('../images/side_nav_dealers.png');
+}
+
+div.sidebar li#link_partners{
+	background-image:url('../images/side_nav_partners.png');
+}
+
 img.right{
 	float:right;
 }
