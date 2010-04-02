@@ -210,6 +210,17 @@ div.main_content li{
 	line-height:19px;
 }
 
+div.main_content ol{
+	padding-left:15px;
+}
+
+div.main_content ol li{
+	margin:0 0 8px 25px;
+	color:#626262;
+	font-size:13px;
+	line-height:19px;
+}
+
 div.main_content blockquote{
 	padding:0px 25px 15px 25px;
 	font-size:15px;
