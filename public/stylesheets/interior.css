@@ -289,3 +289,7 @@ div.main_content blockquote{
 .interior_content tr.alt{
 	background:#FAFAFA;
 }
+
+.interior_content a:hover{
+	text-decoration:none;
+}
