@@ -203,7 +203,7 @@ div.main_content ul{
 }
 
 div.main_content li{
-	list-style:disc outside none;
+	list-style:decimal outside none;
 	margin:0 0 8px 25px;
 	color:#626262;
 	font-size:13px;
