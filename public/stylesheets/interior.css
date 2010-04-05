@@ -322,3 +322,8 @@ div.main_content blockquote{
 	float:left;
 	width:33%;
 }
+
+.interior_content ul.customer li img{
+	border:1px solid #CCCCCC;
+	padding:8px;
+}
