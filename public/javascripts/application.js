@@ -17,7 +17,16 @@ $(document).ready(function() {
 	$('.interior_content .sidebar li').click(function(){
 		selectLink(this);
 	});
-
+	
+	$("#request_demo").fancybox({
+		'width'				: '75%',
+		'height'			: '75%',
+		'autoScale'			: false,
+		'transitionIn'		: 'none',
+		'transitionOut'		: 'none',
+		'type'				: 'iframe'
+	});
+	
 });
 
 function selectLink(current_li) {
