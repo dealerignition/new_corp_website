@@ -306,3 +306,19 @@ div.main_content blockquote{
 .interior_content a:hover{
 	text-decoration:none;
 }
+
+.interior_content ul.customer{
+	list-style:none;
+	margin:0;
+	padding:0;
+	padding-left:20px;
+}
+
+.interior_content ul.customer li{
+	list-style:none;
+	margin:0;
+	padding:0;
+	padding-bottom:10px;
+	float:left;
+	width:33%;
+}
