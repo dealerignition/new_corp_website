@@ -134,6 +134,22 @@ div.sidebar li#link_partners{
 	background-image:url('../images/side_nav_partners.png');
 }
 
+div.sidebar li#link_our-story{
+	background-image:url('../images/side_nav_story.png');
+}
+
+div.sidebar li#link_our-team{
+	background-image:url('../images/side_nav_team.png');
+}
+
+div.sidebar li#link_buzz{
+	background-image:url('../images/side_nav_buzz.png');
+}
+
+div.sidebar li#link_careers{
+	background-image:url('../images/side_nav_careers.png');
+}
+
 img.right{
 	float:right;
 }
