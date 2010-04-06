@@ -222,6 +222,7 @@ ul.content_footer_icons li.icon{
 	height:136px;
 	float:left;
 	margin-right:38px;
+	position:relative;
 }
 
 ul.content_footer_icons li h3{
@@ -245,6 +246,14 @@ ul.content_footer_icons li ul{
 	font-size:13px;
 	list-style:disc;
 	color:#3d3c3c;
+}
+
+ul.content_footer_icons li a{
+	position:absolute;
+	display:block;
+	width:206px;
+	height:136px;
+	text-indent:-9999px;
 }
 
 ul.content_footer_icons li.last{
