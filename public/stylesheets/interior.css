@@ -394,7 +394,7 @@ div.main_content blockquote{
 #roi-calculator .money:after, #roi-calculator .percent:after {
   float: right;
   display: inline;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 16px;
   margin: 0 10px;
   color: #14143c;
