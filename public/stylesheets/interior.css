@@ -327,3 +327,81 @@ div.main_content blockquote{
 	border:1px solid #CCCCCC;
 	padding:8px;
 }
+
+
+#roi-calculator form {
+  padding: 20px;
+  width: 550px;
+}
+
+#roi-calculator p {
+  outline: 1px outset #efefef;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#roi-calculator form fieldset {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+#roi-calculator form fieldset legend {
+  display: inline-block;
+  padding: 6px 12px;
+  border:1px solid #ddd;
+  background-color:#14143c;
+  color:#efefef;
+  font-size:100%;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-align:right;
+}
+
+#roi-calculator label {
+  clear: both;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-right: 40px;
+  cursor: help;
+}
+
+#roi-calculator input {
+  border: 1px solid #999;
+  background-color: #efefef;
+  width: 100px;
+  text-align: center;
+  float: right;
+  padding: 5px;
+  margin-top: -4px;
+  margin-bottom: 10px;
+}
+
+#roi-calculator input.calculated {
+  color: #330a02;
+  background-color: #ddd;
+}
+
+#roi-calculator .calculated {
+  font-weight: bold;
+  cursor: default;
+}
+
+#roi-calculator input:focus {
+  color: #811e08;
+  background-color: #FFF4B8;
+  outline: none;
+}
+
+#roi-calculator .money:after, #roi-calculator .percent:after {
+  float: right;
+  display: inline;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 10px;
+  color: #14143c;
+}
+#roi-calculator .money:after {
+  content: '$ ';
+}
+#roi-calculator .percent:after {
+  content: '% ';
+}

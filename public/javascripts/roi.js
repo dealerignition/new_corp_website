@@ -1,4 +1,3 @@
-
 var ROICalculator = Class.create({
 
   initialize: function() {
