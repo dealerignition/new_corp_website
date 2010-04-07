@@ -220,7 +220,7 @@ ul.content_footer_icons li.icon{
 	display:block;
 	width:206px;
 	height:136px;
-	float:left;
+	float:left; 
 	margin-right:38px;
 	position:relative;
 }
