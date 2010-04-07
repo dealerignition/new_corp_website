@@ -165,7 +165,7 @@ div.header_bottom_footer div.keep_in_touch{
 	float:right;
 	clear:none;
 	padding:10px 0px;
-	width:95px;
+	width:120px;
 }
 
 div.header_bottom_footer p{
@@ -368,6 +368,10 @@ a.twitter{
 
 a.facebook{
 	background:url('../images/sm_facebook_sprite.png');
+}
+
+a.rss{
+	background:url('../images/sm_rss_sprite.png');
 }
 
 a.linkedin{
