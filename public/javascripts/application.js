@@ -40,9 +40,8 @@ function selectLink(current_li) {
 
 function activateCurrentLink() {
 	 var path = location.pathname.substring(1);
-
    if ( path ) {
-     active_link = jQuery('.navigation a[hrefjQuery="' + path + '"]').parents('li').attr('class', 'active').css('position', 'relative');
+     active_link = jQuery('.navigation a[href$="' + path + '"]').parents('li').attr('class', 'active').css('position', 'relative');
 		 var left = (active_link.width() / 2) - 7;
 		 active_link.append("<span class='triangle' style='position:absolute; bottom: -7px; left:"+ left + "px;'></span>");
 	}
