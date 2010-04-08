@@ -406,3 +406,31 @@ div.main_content blockquote{
 #roi-calculator .percent:after {
   content: '% ';
 }
+
+/* ROLLING DEALER LIST */
+
+div#dealer_rotation{
+	margin-top:20px;
+	background:url('../images/rolling_list_background.png') no-repeat;
+	width:600px;
+	height:54px;
+	position:relative;
+}
+
+div#dealer_rotation h3.name{
+	position:absolute;
+	color:#FFF;
+	font-size:20px;
+	top:10px;
+	left:10px;
+}
+
+div#dealer_rotation h4.location{
+	position:absolute;
+	color:#FFF;
+	font-size:20px;
+	padding:3px 0 0 0;
+	font-weight:normal;
+	top:10px;
+	left:420px;
+}

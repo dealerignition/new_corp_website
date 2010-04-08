@@ -27,7 +27,29 @@ jQuery(document).ready(function() {
 		'type'				: 'iframe'
 	});
 	
+	rotateDealerList();
+	
 });
+
+function rotateDealerList() {
+	jQuery.get('/dealers.json', null, function(data) {
+		setTimeout(function() {	updateFeaturedDealer(data.dealers[0]); }, 1000);
+		setTimeout(function() {	updateFeaturedDealer(data.dealers[1]); }, 4000);
+		setTimeout(function() {	updateFeaturedDealer(data.dealers[2]); }, 7000);
+		setTimeout(function() {	updateFeaturedDealer(data.dealers[3]); }, 10000);
+
+	});
+}
+
+function updateFeaturedDealer(dealer) {
+	jQuery('#dealer_rotation h3.name, #dealer_rotation h4.location').fadeOut(500);
+	jQuery('#dealer_rotation h3.name, #dealer_rotation h4.location').fadeIn(500);
+	setTimeout(function() {
+		jQuery('#dealer_rotation h3.name').html(dealer.name);
+		jQuery('#dealer_rotation h4.location').html(dealer.city + ", " + dealer.state);
+	}, 500);
+	
+}
 
 function selectLink(current_li) {
 	var current_link = jQuery(current_li).attr('id').substring(5);
