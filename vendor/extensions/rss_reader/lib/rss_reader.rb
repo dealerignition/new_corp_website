@@ -7,7 +7,7 @@ module RssReader
   include Radiant::Taggable
   
   def fetch_rss(uri, cache_time)
-    c = File.join(ActionController::Base.page_cache_directory, uri.tr(':/','_'))
+    c = File.join("#{RAILS_ROOT}/tmp/", uri.tr(':/','_'))
     if (cached_feed = feed_for(IO.read(c)) rescue nil)
       return cached_feed if File.mtime(c) > (Time.now - cache_time)
       since = File.mtime(c).httpdate

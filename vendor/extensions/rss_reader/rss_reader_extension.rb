@@ -7,7 +7,7 @@ class RssReaderExtension < Radiant::Extension
   #   Page.send :include, RssReader
   # end
   def activate
-    cache_dir = ActionController::Base.page_cache_directory
+    cache_dir = "#{RAILS_ROOT}/tmp/"
     Dir.mkdir(cache_dir) unless File.exist?(cache_dir)
     Page.send :include, RssReader
   end
