@@ -32,16 +32,17 @@ jQuery(document).ready(function() {
 });
 
 function rotateDealerList() {
+	
 	jQuery.get('/dealers.json', null, function(data) {
-		setTimeout(function() {	updateFeaturedDealer(data.dealers[0]); }, 1000);
-		setTimeout(function() {	updateFeaturedDealer(data.dealers[1]); }, 4000);
-		setTimeout(function() {	updateFeaturedDealer(data.dealers[2]); }, 7000);
-		setTimeout(function() {	updateFeaturedDealer(data.dealers[3]); }, 10000);
-
+		updateFeaturedDealer(data.dealers);
+		setInterval ( function() {			
+			updateFeaturedDealer(data.dealers);
+		}, 9000 );
 	});
-}
-
-function updateFeaturedDealer(dealer) {
+}	
+	
+function updateFeaturedDealer(dealers) {
+	dealer = dealers[Math.floor(Math.random() * (dealers.length - 1))];
 	jQuery('#dealer_rotation h3.name, #dealer_rotation h4.location').fadeOut(500);
 	jQuery('#dealer_rotation h3.name, #dealer_rotation h4.location').fadeIn(500);
 	setTimeout(function() {
