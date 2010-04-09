@@ -8,3 +8,4 @@ backup/*
 ignite_development.sqlite
 db/*.sqlite
 db/*.sqlite3
+public/http*
