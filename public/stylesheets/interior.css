@@ -436,3 +436,39 @@ div#dealer_rotation h4.location{
 	top:10px;
 	left:420px;
 }
+
+/* Interview Videos */
+
+div.interview{
+	float:left;
+	width:161px;
+	height:190px;
+	border:2px solid #CCCCCC;
+	margin-bottom:20px;
+	margin-right:20px;
+	padding:7px;
+}
+
+div.interview a{
+	background:url('../images/connie_small.jpg');
+	width:161px;
+	height:128px;
+	display:block;
+}
+
+div.interior_content div.interview h3{
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	margin-top:8px;
+	padding:0;
+	color:#000;
+}
+
+div.interview h4{
+	font-size:12px;
+	color:#7F7F7F;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
