@@ -327,6 +327,8 @@ div.main_content blockquote{
 .interior_content ul.customer li img{
 	border:1px solid #CCCCCC;
 	padding:8px;
+	-moz-border-radius:5px;
+  -webkit-border-radius:5px;
 }
 
 
