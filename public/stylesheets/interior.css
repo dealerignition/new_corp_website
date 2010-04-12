@@ -443,10 +443,12 @@ div.interview{
 	float:left;
 	width:161px;
 	height:190px;
-	border:2px solid #CCCCCC;
+	border:1px solid #CCCCCC;
 	margin-bottom:20px;
 	margin-right:20px;
 	padding:7px;
+	-moz-border-radius:5px;
+  -webkit-border-radius:5px;
 }
 
 div.interview a{
