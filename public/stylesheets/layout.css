@@ -207,6 +207,10 @@ div.content_main p{
 	padding-bottom:10px;
 }
 
+div.content_main a:hover{
+	text-decoration:none;
+}
+
 div.content_footer{
 	overflow:hidden;
 }
