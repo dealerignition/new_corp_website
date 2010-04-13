@@ -27,6 +27,17 @@ jQuery(document).ready(function() {
 		'type'				: 'iframe'
 	});
 	
+	jQuery(".interview_link").fancybox({
+		  'width'           : 562,
+		  'height'          : 365,
+		  'padding'         : 10,
+	    'autoScale'     	: true,
+	    'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'type'				: 'iframe'
+		});
+	
+	
 	rotateDealerList();
 	
 });
