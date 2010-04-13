@@ -3,7 +3,7 @@
 === 0.8.1 Luster  
 
 * Move default cache location to tmp. [Sean Cribbs]
-* Upgrade Rails and dataset. [Sean Cribbs]
+* Upgrade Rails and dataset. [Sean Cribbs]   
 * Updated README and INSTALL. [John Long]
 * Don't use Symbol#to_proc in initializer because ActiveSupport hasn't
   loaded yet.
