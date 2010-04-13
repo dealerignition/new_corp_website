@@ -456,6 +456,21 @@ div.interview a{
 	width:161px;
 	height:128px;
 	display:block;
+	position:relative;
+}
+
+div.interview a span.watch_now{
+	background:url('../images/watchvid_sprite.png');
+	width:83px;
+	height:17px;
+	position:absolute;
+	display:block;
+	bottom:5px;
+	right:5px;
+}
+
+div.interview a:hover span.watch_now{
+	background-position:bottom center;
 }
 
 div.interior_content div.interview h3{
