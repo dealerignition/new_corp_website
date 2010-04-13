@@ -1,6 +1,6 @@
 == Change Log
 
-=== 0.8.1 Luster
+=== 0.8.1 Luster  
 
 * Move default cache location to tmp. [Sean Cribbs]
 * Upgrade Rails and dataset. [Sean Cribbs]
