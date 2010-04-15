@@ -453,11 +453,18 @@ div.interview{
 }
 
 div.interview a{
-	background:url('../images/connie_small.jpg');
 	width:161px;
 	height:128px;
 	display:block;
 	position:relative;
+}
+
+div.interview a.connie{
+	background:url('../images/connie_small.jpg');
+}
+
+div.interview a.brad{
+	background:url('../images/bradsmith.jpg');
 }
 
 div.interview a span.watch_now{

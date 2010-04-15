@@ -18,6 +18,7 @@ jQuery(document).ready(function() {
 		selectLink(this);
 	});
 	
+	
 	jQuery("#request_demo").fancybox({
 		'width'				: '75%',
 		'height'			: '75%',
@@ -27,7 +28,7 @@ jQuery(document).ready(function() {
 		'type'				: 'iframe'
 	});
 	
-	jQuery(".interview_link").fancybox({
+	jQuery("div.interview a.interview_link").fancybox({
 		  'width'           : 562,
 		  'height'          : 365,
 		  'padding'         : 10,
@@ -39,6 +40,9 @@ jQuery(document).ready(function() {
 	
 	
 	rotateDealerList();
+	
+	 jQuery('#myCounter').jCounter({count: 2220222});
+	
 	
 });
 
