@@ -345,11 +345,11 @@ div.keep_in_touch p{
 }
 
 div.address p{
-	background:url('../images/dilogo_large.png') no-repeat center top;
+	background:url('../images/dilogo_footer.png') no-repeat right top;
 	padding-top:15px;
-	text-align:center;
-	margin-top:10px;
-	padding-top:107px;
+	text-align:right;
+	margin-top:-30px;
+	padding-top:57px;
 	padding-bottom:20px;
 	font-size:10px;
 	color:#696969;

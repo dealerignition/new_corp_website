@@ -41,9 +41,7 @@ jQuery(document).ready(function() {
 	
 	rotateDealerList();
 	
-	 jQuery('#myCounter').jCounter({count: 2220222});
-	
-	
+	//jQuery('#myCounter').jCounter({count: 2220222});
 });
 
 function rotateDealerList() {
