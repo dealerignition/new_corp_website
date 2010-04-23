@@ -1020,7 +1020,7 @@
 
 	$.fn.fancybox.defaults = {
 		padding				:	10,
-		margin				:	20,
+		margin				:	10,
 		opacity				:	false,
 		modal				:	false,
 		cyclic				:	false,
