@@ -9,9 +9,7 @@ jQuery(document).ready(function() {
 	}
 	else
 	{
-		jQuery('.content-pane').hide();
-		jQuery('.interior_content .main_content .content-pane:first-child').show();
-		jQuery('.interior_content .sidebar li:first-child').addClass('current');
+		selectLink(jQuery('.interior_content .sidebar li:first-child'));
 	}
 	
 	jQuery('.interior_content .sidebar li').click(function(){
