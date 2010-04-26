@@ -391,3 +391,22 @@ span.triangle{
 	width:15px;
 	height:7px;
 }
+
+div.content_main h4{
+	color:#2E2E2E;
+	font-size:18px;
+	padding-bottom:4px;
+	padding-top:10px;
+}
+
+div.content_main ul{
+	padding-bottom:15px;
+	margin-left:20px;
+}
+
+div.content_main ul li{
+	color:#626262;
+	font-size:15px;
+	line-height:22px;
+	list-style:disc;
+}
