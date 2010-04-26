@@ -64,12 +64,15 @@ function updateFeaturedDealer(dealers) {
 }
 
 function selectLink(current_li) {
-	var current_link = jQuery(current_li).attr('id').substring(5);
-	window.location.hash = current_link;
-	jQuery('.content-pane').hide();
-	jQuery('.interior_content .sidebar li').removeClass('current');
-	jQuery(current_li).addClass('current');
-	jQuery('.interior_content .main_content .' + current_link).show();
+	var current_item = jQuery(current_li);
+	if(current_item) {
+		var current_link = current_item.attr('id').substring(5);
+		window.location.hash = current_link;
+		jQuery('.content-pane').hide();
+		jQuery('.interior_content .sidebar li').removeClass('current');
+		jQuery(current_li).addClass('current');
+		jQuery('.interior_content .main_content .' + current_link).show();
+	}
 }
 
 function activateCurrentLink() {
