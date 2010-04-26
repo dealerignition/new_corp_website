@@ -62,6 +62,10 @@ div.sidebar li p{
 	
 }
 
+div.sidebar li#link_why-dealer-ignition{
+	background-image:url('../images/sidenav_whydi.png');
+}
+
 div.sidebar li#link_accelerate-marketing{
 	background-image:url('../images/side_nav_accelerate.png');
 }
