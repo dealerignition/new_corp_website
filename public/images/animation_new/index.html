@@ -154,7 +154,7 @@
 </style>
 
 <script src="../../javascripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="jquery.cycle.lite.1.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.cycle.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="jquery.backgroundPosition.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript" charset="utf-8">
@@ -174,6 +174,21 @@
           3250);
         }
     });
+        
+    $('.animation-menu li a').click(function() {
+      //stop the animation
+      $('#ani-slides').cycle('stop');
+      
+      var li_class = $(this).attr('id');
+      
+      //go to that slide
+      $('#ani-slides div').hide().css('opacity', '1');
+      $('#ani-slides div.'+ li_class).show();
+      
+      //fade in that link
+       $('.animation-menu li').animate({backgroundPosition: '0px 0px'}, 0);
+       $('.animation-menu li.'+ li_class).animate({backgroundPosition: '0px -140px'}, 0);
+    });
   });
 </script>
 
@@ -183,32 +198,28 @@
 <div class="animation">
   <div id="ani-slides">
     <div class="sales">
-      <p class="quote">
-        "We can't afford to waste time and money driving from store to store. We do our homework by researching online before we go to a store to buy"
-      </p>
-      <p class="signature">
-        Jane Consumer - Anytown, USA
-      </p>
+      <p class="quote">&ldquo;We can't afford to waste time and money driving from store to store. We always research online before we go to a store to buy&rdquo;</p>
+      <p class="signature">Your customers</p>
     </div>
     <div class="marketing">
-      <p class="quote">"We need access to online promotions and content from manufacturers, and a way to work with them to drive in-store"</p>
+      <p class="quote">&ldquo;We need access to online promotions and content from manufacturers, and a way to work with them to drive in-store&rdquo;</p>
       <p class="signature">Paul Faircloth - Owner, Mosquito Creek Outdoors</p>
     </div>
     <div class="dealers">
-      <p class="quote">"We were looking for a way to influence and control how dealers were marketing our brand"</p>
+      <p class="quote">&ldquo;We were looking for a way to influence and control how dealers were marketing our brand&rdquo;</p>
       <p class="signature">Bradley Smith - VP Sales, Vigilix</p>
     </div>
     <div class="consumer">
-      <p class="quote">"I needed a way to make it easier for my dealers to market our products online"</p>
+      <p class="quote">&ldquo;I needed a way to make it easier for my dealers to market our products online&rdquo;</p>
       <p class="signature">Connie Berry - VP Marketing, Karastan</p>
     </div>
   </div>
   <div class="animation-menu">
     <ul>
-      <li class="sales current"><a href="#">Sales</a></li>
-      <li class="marketing" style="background-position: 0px 0px"><a href="#">Marketing</a></li>
-      <li class="dealers" style="background-position: 0px 0px"><a href="#">Dealers</a></li>
-      <li class="consumer" style="background-position: 0px 0px"><a href="#">Consumer</a></li>
+      <li class="sales current"><a id="sales" href="#">Sales</a></li>
+      <li class="marketing"><a id="marketing" href="#">Marketing</a></li>
+      <li class="dealers"><a id="dealers" href="#">Dealers</a></li>
+      <li class="consumer"><a id="consumer" href="#">Consumer</a></li>
     </ul>
   </div>
 </div>
