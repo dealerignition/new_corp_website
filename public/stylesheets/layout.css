@@ -399,6 +399,19 @@ div.content_main h4{
 	padding-top:10px;
 }
 
+div.two_column ul{
+	padding-bottom:15px;
+	margin-left:20px;
+}
+
+div.two_column ul li{
+	color:#626262;
+	font-size:15px;
+	line-height:22px;
+	list-style:disc;
+}
+
+
 div.content_main ul{
 	padding-bottom:15px;
 	margin-left:20px;
@@ -406,7 +419,7 @@ div.content_main ul{
 
 div.content_main ul li{
 	color:#626262;
-	font-size:18px;
+	font-size:15px;
 	line-height:22px;
 	list-style:disc;
 }
