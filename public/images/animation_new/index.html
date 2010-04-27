@@ -160,7 +160,7 @@
 <script type="text/javascript" charset="utf-8">
   jQuery(document).ready(function() {
     $('#ani-slides').cycle({ 
-        timeout:  3500, 
+        timeout:  4500, 
         speed:  500,
         before: function() {
           var li_class = $(this).attr('class');
@@ -171,7 +171,7 @@
           setTimeout(function() {
             $('.animation-menu li.'+ li_class).animate({backgroundPosition: '0px 0px'}, 500);
           },
-          3250);
+          4250);
         }
     });
         
