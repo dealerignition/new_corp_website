@@ -1,111 +1,155 @@
-.header_animation {
-	width: 942px;
-	background: url('../images/animation/header-background.jpg');
-	height: 245px;
-	position:relative;
+div.animation{
+	margin-left:2px;
+  width: 938px;
+  height:292px;
+  overflow:hidden;
+  position:relative;
 }
 
-.header_animation div{
-	position:absolute;
+div.animation p.quote{
+  padding:0;
+  margin:0;
+  color:#252542;
+  font-size:20pt;
+  font-family:Georgia;
+  font-weight:normal;
+  font-style:italic;
 }
 
-#manufacturer{
-	background:url('../images/animation/manufacturer.png');
-	top:24px;
-	left:10px;
-	height:218px;
-	width:232px;
+div.animation p.signature{
+  padding:0;
+  margin:0;
+  color:#252542;
+  font-size:12pt;
+  font-family:Helvetica, Arial, sans-serif;
+  font-weight:normal;
 }
 
-#store{
-	background:url('../images/animation/store.png');
-	width:272px;
-	height:189px;
-	top:44px;
-	left:340px;
+div.consumer{
+  background:url('../images/animation_new/sales.jpg');
+  width: 938px;
+  height:292px;
 }
 
-#people{
-	background:url('../images/animation/people.png');
-	width:171px;
-	height:145px;
-	top:64px;
-	left:750px;
+div.consumer p.quote{
+  width:445px;
+  padding-left:30px;
+  padding-top:45px;
 }
 
-.bubble_one{
-	background:url('../images/animation/bubble_1.png');
-	width:223px;
-	height:137px;
-	top:50px;
-	left:630px;
+div.consumer p.signature{
+  width:445px;
+  padding-left:30px;
+  padding-top:10px;
 }
 
-.bubble_two{
-	background:url('../images/animation/bubble_2.png');
-	width:261px;
-	height:189px;
-	top:30px;
-	left:30px;
+div.dealers{
+  background:url('../images/animation_new/mosq_creek.jpg');
+  width: 938px;
+  height:292px;
 }
 
-.bubble_three{
-	background:url('../images/animation/bubble_3.png');
-	width:271px;
-	height:137px;
-	top:60px;
-	left:30px;
+div.dealers p.quote{
+  width:545px;
+  text-align:right;
+  padding-left:30px;
+  padding-top:60px;
 }
 
-.bubble_four{
-	background:url('../images/animation/bubble_4.png');
-	width:251px;
-	height:146px;
-	top:50px;
-	left:630px;
+div.dealers p.signature{
+  width:545px;
+  text-align:right;
+  padding-left:30px;
+  padding-top:10px;
 }
 
-.bubble_five{
-	background:url('../images/animation/bubble_5.png');
-	width:259px;
-	height:181px;
-	top:35px;
-	left:630px;
+div.sales{
+ background:url('../images/animation_new/brad.jpg'); 
+ width: 938px;
+ height:292px;
 }
 
-.arrow{
-	background:url('../images/animation/dots_and_arrows.png');
-	height:15px;
-	width:130px;
-	top:95px;
+div.sales p.quote{
+  width:445px;
+  text-align:right;
+  padding-left:450px;
+  padding-top:60px;
 }
 
-.arrow.active{
-	background-position:130px;
+div.sales p.signature{
+  width:445px;
+  text-align:right;
+  padding-left:450px;
+  padding-top:10px;
 }
 
-#left_arrow{
-	left:245px;
+div.marketing{
+  background:url('../images/animation_new/connie.jpg');
+  width: 938px;
+  height:292px;
 }
 
-#right_arrow{
-	left:610px;
+div#ani-slides{
+  position:absolute;
+  z-index:0;
 }
 
-#right_arrow_left{
-	background:url('../images/animation/dots_and_arrows_left.png');
-	left:610px;
-	top:120px;
+div.marketing p.quote{
+  width:395px;
+  color:#FFF;
+  padding-left:30px;
+  padding-top:50px;
 }
 
-#left_arrow_left{
-	background:url('../images/animation/dots_and_arrows_left.png');
-	left:245px;
-	top:120px;
+div.marketing p.signature{
+  width:445px;
+  color:#FFF;
+  padding-left:30px;
+  padding-top:10px;
 }
 
-.last_frame{
-	background:url('../images/animation/final_frame.jpg');
-	width:942px;
-	height:245px;
+
+div.closing{
+ background:url('../images/animation_new/closing.jpg'); 
+ width: 938px;
+ height:292px;
+}
+
+div.animation-menu{
+  position:absolute;
+  bottom:0;
+  z-index:2;
+}
+
+div.animation-menu ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  width:939px;
+}
+
+div.animation-menu ul li{
+  display:block;
+  float:left;
+  width:25%;
+  font-size:20px;
+  height:50px;
+  text-align:center;
+  line-height:50px;
+  background-image:url('../images/animation_new/navsprite_tranisition2.png');
+  background-position:0px 0px;
+  
+}
+
+div.animation-menu ul li.current{
+  background-position:0px -140px;
+  
+}
+
+div.animation-menu ul li a{
+  color:#FFF;
+  text-decoration:none;
+  font-family:Helvetica, Arial, sans-serif;
+  display:block;
+  
 }

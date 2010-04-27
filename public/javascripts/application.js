@@ -65,7 +65,7 @@ function updateFeaturedDealer(dealers) {
 
 function selectLink(current_li) {
 	var current_item = jQuery(current_li);
-	if(current_item) {
+	if(current_item.attr('id')) {
 		var current_link = current_item.attr('id').substring(5);
 		window.location.hash = current_link;
 		jQuery('.content-pane').hide();
