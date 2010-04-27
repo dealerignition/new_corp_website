@@ -130,15 +130,18 @@
     display:block;
     float:left;
     width:25%;
-    background:url('animation_menu_bg.png');
     font-size:20px;
     height:50px;
     text-align:center;
     line-height:50px;
+    background-image:url('navsprite_tranisition2.png');
+    background-position:0px 0px;
+    
   }
   
   div.animation-menu ul li.current{
-    background:url('animation_menu_bg-active.png');
+    background-position:0px -140px;
+    
   }
   
   div.animation-menu ul li a{
@@ -146,17 +149,30 @@
     text-decoration:none;
     font-family:Helvetica, Arial, sans-serif;
     display:block;
+    
   }
 </style>
 
 <script src="../../javascripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="jquery.cycle.lite.1.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.backgroundPosition.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript" charset="utf-8">
   jQuery(document).ready(function() {
     $('#ani-slides').cycle({ 
-        delay:  2000, 
-        speed:  500, 
+        timeout:  3500, 
+        speed:  500,
+        before: function() {
+          var li_class = $(this).attr('class');
+          $('.animation-menu li.'+ li_class).animate({backgroundPosition: '0px -140px'}, 500);
+        },
+        after: function() {
+          var li_class = $(this).attr('class');
+          setTimeout(function() {
+            $('.animation-menu li.'+ li_class).animate({backgroundPosition: '0px 0px'}, 500);
+          },
+          2500);
+        }
     });
   });
 </script>
@@ -166,7 +182,7 @@
   
 <div class="animation">
   <div id="ani-slides">
-    <div class="sales slide">
+    <div class="sales">
       <p class="quote">
         "We can't afford to waste time and money driving from store to store. We do our homework by researching online before we go to a store to buy"
       </p>
@@ -174,25 +190,25 @@
         Jane Consumer - Anytown, USA
       </p>
     </div>
-    <div class="marketing slide">
+    <div class="marketing">
       <p class="quote">"We need access to online promotions and content from manufacturers, and a way to work with them to drive in-store"</p>
       <p class="signature">Paul Faircloth - Owner, Mosquito Creek Outdoors</p>
     </div>
-    <div class="dealers slide">
+    <div class="dealers">
       <p class="quote">"We were looking for a way to influence and control how dealers were marketing our brand"</p>
       <p class="signature">Bradley Smith - VP Sales, Vigilix</p>
     </div>
-    <div class="consumer slide">
+    <div class="consumer">
       <p class="quote">"I needed a way to make it easier for my dealers to market our products online"</p>
       <p class="signature">Connie Berry - VP Marketing, Karastan</p>
     </div>
   </div>
   <div class="animation-menu">
     <ul>
-      <li class="current"><a href="#">Sales</a></li>
-      <li><a href="#">Marketing</a></li>
-      <li><a href="#">Dealers</a></li>
-      <li><a href="#">Consumer</a></li>
+      <li class="sales current"><a href="#">Sales</a></li>
+      <li class="marketing" style="background-position: 0px 0px"><a href="#">Marketing</a></li>
+      <li class="dealers" style="background-position: 0px 0px"><a href="#">Dealers</a></li>
+      <li class="consumer" style="background-position: 0px 0px"><a href="#">Consumer</a></li>
     </ul>
   </div>
 </div>
