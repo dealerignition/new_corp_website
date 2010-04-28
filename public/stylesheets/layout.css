@@ -425,9 +425,14 @@ div.content_main ul li{
 }
 
 div.contact div.left{
-	width:50% !important;
+	width:54% !important;
 	height: 800px;
 	overflow:auto;
+}
+
+
+div.contact div.right{
+	width:42% !important;
 }
 
 div.contact div.left iframe{
