@@ -423,3 +423,13 @@ div.content_main ul li{
 	line-height:22px;
 	list-style:disc;
 }
+
+div.contact div.left{
+	width:50% !important;
+	height: 800px;
+	overflow:auto;
+}
+
+div.contact div.left iframe{
+	height: 800px;
+}
