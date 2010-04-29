@@ -53,9 +53,8 @@ div.navigation li a{
 	color:#FFF;
 	text-decoration:none;
 	font-weight:bold;
-	font-size:13px;
+	font-size:15px;
 	padding:30px 11px 0px 11px;
-	text-transform:uppercase;
 }
 
 div.navigation li a:hover, div.navigation li.active a{
