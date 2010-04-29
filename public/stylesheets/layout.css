@@ -424,14 +424,15 @@ div.content_main ul li{
 }
 
 div.contact div.left{
-	width:54% !important;
+	width:53% !important;
+	padding-left:1%;
 	height: 800px;
 	overflow:auto;
 }
 
 
 div.contact div.right{
-	width:42% !important;
+	width:39% !important;
 }
 
 div.contact div.left iframe{
