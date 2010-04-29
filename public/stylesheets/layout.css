@@ -423,6 +423,10 @@ div.content_main ul li{
 	list-style:disc;
 }
 
+div.contact{
+	padding-top:10px;
+}
+
 div.contact div.left{
 	width:53% !important;
 	padding-left:1%;
