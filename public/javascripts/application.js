@@ -26,6 +26,15 @@ jQuery(document).ready(function() {
 		'type'				: 'iframe'
 	});
 	
+	jQuery(".register_webinar").fancybox({
+		'width'				: '75%',
+		'height'			: '75%',
+		'autoScale'			: false,
+		'transitionIn'		: 'none',
+		'transitionOut'		: 'none',
+		'type'				: 'iframe'
+	});
+	
 	jQuery("div.interview a.interview_link").fancybox({
 		  'width'           : 553,
 		  'height'          : 345,
