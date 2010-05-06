@@ -398,12 +398,12 @@ div.content_main h4{
 	padding-top:10px;
 }
 
-div.two_column ul{
+div.two_column ul, div.one_column ul{
 	padding-bottom:15px;
 	margin-left:20px;
 }
 
-div.two_column ul li{
+div.two_column ul li, div.one_olumn ul li{
 	color:#626262;
 	font-size:15px;
 	line-height:22px;
