@@ -85,7 +85,8 @@ function selectLink(current_li) {
 }
 
 function activateCurrentLink() {
-	 var path = location.pathname.substring(1);
+	var patt1=/[a-zA-Z]+\//i;
+	 var path = location.pathname.match(patt1);
    if ( path ) {
      active_link = jQuery('.navigation a[href$="' + path + '"]').parents('li').attr('class', 'active').css('position', 'relative');
 		 var left = (active_link.width() / 2) - 7;
