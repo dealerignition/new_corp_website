@@ -442,3 +442,7 @@ div.contact div.right{
 div.contact div.left iframe{
 	height: 800px;
 }
+
+a:visited{
+	color:blue;
+}
