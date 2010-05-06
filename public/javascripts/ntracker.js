@@ -1,4 +1,3 @@
-<script type="text/javascript" language="javascript">
 //<![CDATA[
 
  if(navigator.userAgent.indexOf("MSIE")==-1)
@@ -76,4 +75,3 @@
  add_img('track_url');
 
 //]]>
-</script>
