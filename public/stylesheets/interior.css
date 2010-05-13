@@ -308,10 +308,6 @@ div.main_content blockquote{
 	background:#FAFAFA;
 }
 
-.interior_content a:hover{
-	text-decoration:none;
-}
-
 .interior_content ul.customer{
 	list-style:none;
 	margin:0;
