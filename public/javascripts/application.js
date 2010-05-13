@@ -35,15 +35,25 @@ jQuery(document).ready(function() {
 		'type'				: 'iframe'
 	});
 	
-	jQuery("a.interview_link").fancybox({
-		  'width'           : 573,
-		  'height'          : 400,
+	jQuery("div.interview a.interview_link").fancybox({
+		  'width'           : 553,
+		  'height'          : 345,
 		  'padding'         : 10,
 	    'autoScale'     	: true,
 	    'transitionIn'		: 'none',
 			'transitionOut'		: 'none',
 			'type'				: 'iframe'
 		});
+		
+		jQuery("div.quicktours a.interview_link").fancybox({
+			  'width'           : 556,
+			  'height'          : 399,
+			  'padding'         : 10,
+		    'autoScale'     	: true,
+		    'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
 	
 	
 	rotateDealerList();
