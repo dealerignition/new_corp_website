@@ -36,8 +36,8 @@ jQuery(document).ready(function() {
 	});
 	
 	jQuery("a.interview_link").fancybox({
-		  'width'           : 553,
-		  'height'          : 345,
+		  'width'           : 573,
+		  'height'          : 400,
 		  'padding'         : 10,
 	    'autoScale'     	: true,
 	    'transitionIn'		: 'none',
