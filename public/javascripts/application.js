@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
 		'type'				: 'iframe'
 	});
 	
-	jQuery("div.interview a.interview_link").fancybox({
+	jQuery("a.interview_link").fancybox({
 		  'width'           : 553,
 		  'height'          : 345,
 		  'padding'         : 10,
