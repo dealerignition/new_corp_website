@@ -545,6 +545,14 @@ div.interior_content ul.promotional_examples li.deal{
 	background-image:url('../images/social-175x450-JPG.jpg');
 }
 
+div.interior_content ul.promotional_examples li a{
+	display:block;
+	height:480px;
+	width:180px;
+	position:absolute;
+	text-indent:-9999px;
+}
+
 p.italic{
 	font-style:italic;
 }

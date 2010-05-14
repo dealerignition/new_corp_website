@@ -55,7 +55,16 @@ jQuery(document).ready(function() {
 				'type'				: 'iframe'
 			});
 	
-	
+		jQuery("div.interior_content ul.promotional_examples li a").fancybox({
+			  'width'           : 830,
+			  'height'          : 630,
+			  'padding'         : 10,
+		    'autoScale'     	: false,
+		    'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+				
 	rotateDealerList();
 	
 	//jQuery('#myCounter').jCounter({count: 2220222});
