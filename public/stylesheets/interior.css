@@ -515,7 +515,7 @@ div.interior_content ul.promotional_examples li{
 	border:1px solid #e0e0e0;
 	padding:10px 8px 10px 8px;
 	width:180px;
-	height:490px;
+	height:480px;
 	margin:0px 10px 10px 0px;
 	float:left;
 	-moz-border-radius:5px;
@@ -553,6 +553,13 @@ p.italic i{
 	font-weight:bold;
 }
 
-div.interior_content ul.promotional_examples {
-	
+a.try_it_out{
+	display:block;
+	background:url('../images/promo_window_sprite.png') top right;
+	height:98px;
+	text-indent:-9999px;
+}
+
+a.try_it_out:hover{
+	background:url('../images/promo_window_sprite.png') bottom right;
 }
