@@ -526,23 +526,23 @@ div.interior_content ul.promotional_examples li{
 }
 
 div.interior_content ul.promotional_examples li.video{
-	background-image:url('../images/video-175x450.jpg');
+	background-image:url('http://s3.amazonaws.com/corp_website/video-175x450.jpg');
 }
 
 div.interior_content ul.promotional_examples li.sms{
-	background-image:url('../images/sms-175x450.jpg');
+	background-image:url('http://s3.amazonaws.com/corp_website/sms-175x450.jpg');
 }
 div.interior_content ul.promotional_examples li.social{
-	background-image:url('../images/social-175x450-JPG.jpg');
+	background-image:url('http://s3.amazonaws.com/corp_website/social-175x450-JPG.jpg');
 }
 div.interior_content ul.promotional_examples li.registration{
-	background-image:url('../images/register-175x450.jpg');
+	background-image:url('http://s3.amazonaws.com/corp_website/register-175x450.jpg');
 }
 div.interior_content ul.promotional_examples li.rebate{
-	background-image:url('../images/rebate_form-175x450.jpg');
+	background-image:url('http://s3.amazonaws.com/corp_website/rebate_form-175x450.jpg');
 }
 div.interior_content ul.promotional_examples li.slideshow{
-	background-image:url('../images/slideshow-175x450.jpg');
+	background-image:url('http://s3.amazonaws.com/corp_website/slideshow-175x450.jpg');
 }
 
 div.interior_content ul.promotional_examples li a{
