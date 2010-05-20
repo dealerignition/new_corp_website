@@ -544,6 +544,9 @@ div.interior_content ul.promotional_examples li.rebate{
 div.interior_content ul.promotional_examples li.slideshow{
 	background-image:url('http://s3.amazonaws.com/corp_website/slideshow-175x450.gif');
 }
+div.interior_content ul.promotional_examples li.deal{
+	background-image:url('http://s3.amazonaws.com/corp_website/deal-175x450.jpg');
+}
 
 div.interior_content ul.promotional_examples li a{
 	display:block;
