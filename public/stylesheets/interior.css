@@ -154,6 +154,10 @@ div.sidebar li#link_careers{
 	background-image:url('../images/side_nav_careers.png');
 }
 
+div.sidebar li#link_press-releases{
+	background-image:url('../images/press_release_sml.png');
+}
+
 img.right{
 	float:right;
 }
