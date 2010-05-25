@@ -579,3 +579,39 @@ a.try_it_out{
 a.try_it_out:hover{
 	background:url('../images/promo_window_sprite.png') bottom right;
 }
+
+div.one_column ul.pill{
+	list-style:none;
+	padding:0;
+	overflow:hidden;
+	width:467px;
+	margin:0 auto 20px auto;
+}
+
+div.one_column  ul.pill li{
+	list-style:none;
+	float:left;
+	text-indent:-9999px;
+}
+
+div.one_column ul.pill li.see_it a{
+	background:url('../images/try_out_sprite.png');
+	height:73px;
+	width:244px;
+	display:block;
+}
+
+div.one_column ul.pill li.see_it a:hover{
+	background-position:0px 73px;
+}
+
+div.one_column ul.pill li.contact a{
+	background:url('../images/contact_sprite.png');
+	height:73px;
+	width:218px;
+	display:block;
+}
+
+div.one_column ul.pill li.contact a:hover{
+	background-position:0px 73px;
+}
