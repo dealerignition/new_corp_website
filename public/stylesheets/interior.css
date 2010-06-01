@@ -551,6 +551,12 @@ div.interior_content ul.promotional_examples li.slideshow{
 div.interior_content ul.promotional_examples li.deal{
 	background-image:url('http://s3.amazonaws.com/corp_website/deal-175x450.gif');
 }
+div.interior_content ul.promotional_examples li.auto1{
+	background-image:url('http://s3.amazonaws.com/corp_website/auto1-175x450.jpg');
+}
+div.interior_content ul.promotional_examples li.auto2{
+	background-image:url('http://s3.amazonaws.com/corp_website/auto2-175x450.jpg');
+}
 
 div.interior_content ul.promotional_examples li a{
 	display:block;
