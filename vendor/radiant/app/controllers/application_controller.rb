@@ -65,7 +65,8 @@ class ApplicationController < ActionController::Base
   private
   
     def redirect_domain
-      redirect_to "http://www.dealerignition.com#{request.request_uri}", :status => 301 if request.host == 'dealerignition.com'
+      #raise request.to_yaml
+      #redirect_to "http://www.dealerignition.com#{request.request_uri}", :status => 301 if request.host == 'http://dealerignition.com'
     end
   
     def set_current_user
