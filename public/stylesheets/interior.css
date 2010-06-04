@@ -590,7 +590,7 @@ div.one_column ul.pill{
 	list-style:none;
 	padding:0;
 	overflow:hidden;
-	width:467px;
+	width:729px;
 	margin:0 auto 20px auto;
 }
 
@@ -609,6 +609,18 @@ div.one_column ul.pill li.see_it a{
 
 div.one_column ul.pill li.see_it a:hover{
 	background-position:0px 73px;
+}
+
+div.one_column ul.pill li.login a{
+	background:url('../images/login.png');
+	height:73px;
+	width:244px;
+	display:block;
+	border-left:1px solid #ccc;
+}
+
+div.one_column ul.pill li.login a:hover{
+	background-position:0px 72px;
 }
 
 div.one_column ul.pill li.contact a{
