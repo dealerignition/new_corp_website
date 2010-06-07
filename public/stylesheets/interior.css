@@ -590,7 +590,7 @@ div.doorbell div.one_column ul.pill{
 	list-style:none;
 	padding:0;
 	overflow:hidden;
-	width:729px;
+	width:463px;
 	margin:0 auto 20px auto;
 }
 
@@ -618,7 +618,7 @@ div.one_column ul.pill li.see_it a{
 	background:url('../images/try_out_sprite.png');
 	height:73px;
 	width:244px;
-	display:block;
+	display:none;
 }
 
 div.one_column ul.pill li.see_it a:hover{
@@ -626,7 +626,7 @@ div.one_column ul.pill li.see_it a:hover{
 }
 
 div.one_column ul.pill li.login a{
-	background:url('../images/login.png');
+	background:url('../images/login-now.png');
 	height:73px;
 	width:244px;
 	display:block;
