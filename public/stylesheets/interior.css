@@ -600,6 +600,12 @@ div.doorbell div.one_column  ul.pill li{
 	text-indent:-9999px;
 }
 
+div.doorbell div.alt{
+	padding-left:25px;
+	padding-right:25px;
+
+}
+
 div.one_column ul.pill{
 	list-style:none;
 	padding:0;
@@ -660,6 +666,10 @@ div.doorbell table.doorbell td{
 	border:none;
 	padding:0.5em;
 	vertical-align:top;
+}
+
+div.doorbell table.doorbell tr{
+	height:85px;
 }
 
 div.doorbell table.doorbell a.email{
