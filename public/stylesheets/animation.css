@@ -154,3 +154,8 @@ div.animation-menu ul li a{
   display:block;
   
 }
+
+div.animation-menu ul li:hover{
+	background-position:0px -140px;
+  
+}
