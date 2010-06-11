@@ -65,7 +65,7 @@ jQuery(document).ready(function() {
 				'type'				: 'iframe'
 			});
 			
-			jQuery("div.doorbell table.doorbell a.email").fancybox({
+			jQuery("div.doorbell table.doorbell a.email, div.doorbell table.doorbell a.search").fancybox({
 				  'width'           : 830,
 				  'height'          : 630,
 				  'padding'         : 10,
