@@ -56,14 +56,24 @@ jQuery(document).ready(function() {
 			});
 	
 		jQuery("div.interior_content ul.promotional_examples li a").fancybox({
-			  'width'           : 830,
-			  'height'          : 630,
+			  'width'           : 900,
+			  'height'          : 600,
 			  'padding'         : 10,
 		    'autoScale'     	: false,
 		    'transitionIn'		: 'none',
 				'transitionOut'		: 'none',
 				'type'				: 'iframe'
 			});
+			
+			jQuery("div.doorbell table.doorbell a.email").fancybox({
+				  'width'           : 830,
+				  'height'          : 630,
+				  'padding'         : 10,
+			    'autoScale'     	: false,
+			    'transitionIn'		: 'none',
+					'transitionOut'		: 'none',
+					'type'				: 'iframe'
+				});
 				
 	rotateDealerList();
 	
