@@ -627,7 +627,14 @@ div.one_column ul.pill li.see_it a{
 	display:none;
 }
 
-div.one_column ul.pill li.see_it a:hover{
+div.one_column ul.pill li.order_now a{
+	background:url('../images/order_button.png');
+	height:73px;
+	width:243px;
+	display:block;
+}
+
+div.one_column ul.pill li.order_now a:hover{
 	background-position:0px 73px;
 }
 
