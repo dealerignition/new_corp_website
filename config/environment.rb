@@ -8,6 +8,7 @@
 require File.join(File.dirname(__FILE__), 'boot')
 
 require 'radius'
+require 'refraction'
 
 Radiant::Initializer.run do |config|
   # Skip frameworks you're not going to use (only works if using vendor/rails).
@@ -49,6 +50,7 @@ Radiant::Initializer.run do |config|
   #    Sets the meta store type and storage location.  We recommend you use
   #    radiant: since this will enable manual expiration and acceleration headers.
   config.middleware.use ::Radiant::Cache
+  config.middleware.insert_before(::Rack::Lock, ::Refraction, {})
   
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information
