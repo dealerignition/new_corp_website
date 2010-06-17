@@ -201,7 +201,7 @@ div.two_column p, div.one_column p{
 div.two_column .left{
 	float:left;
 	width:48%;
-	margin-right:4%;
+	margin-right:2%;
 }
 
 div.two_column .right{
