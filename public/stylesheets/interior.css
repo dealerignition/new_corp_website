@@ -242,6 +242,10 @@ div.main_content ol li{
 	list-style:decimal outside none;
 }
 
+div.contact .embed form{
+	margin-top:10px;
+}
+
 div.main_content blockquote{
 	padding:0px 25px 15px 25px;
 	font-size:16px;
