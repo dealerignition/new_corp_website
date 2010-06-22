@@ -242,8 +242,8 @@ div.main_content ol li{
 	list-style:decimal outside none;
 }
 
-div.contact .embed form{
-	margin-top:10px;
+div.contact .embed body#public{
+	margin-top:10px !important;
 }
 
 div.main_content blockquote{
