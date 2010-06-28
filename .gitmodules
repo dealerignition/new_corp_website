@@ -1,0 +1,3 @@
+[submodule "vendor/extensions/simple_password"]
+	path = vendor/extensions/simple_password
+	url = git://github.com/yoon/radiant-simple-password-extension.git
