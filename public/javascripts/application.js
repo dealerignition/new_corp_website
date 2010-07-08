@@ -13,7 +13,11 @@ jQuery(document).ready(function() {
 	}
 	
 	jQuery('.interior_content .sidebar li').click(function(){
-		selectLink(this);
+            if (jQuery(this).hasClass('direct-link')) {
+                location.href = jQuery(this).attr('rel')
+            } else {
+		selectLink(this)
+            }
 	});
 	
 	
