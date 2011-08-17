@@ -261,17 +261,14 @@ div.main_content blockquote{
 }
 
 .interior_content table{	
-  font-size:13px;
+        font-size:13px;
 	width:588px;
 	color:#333333;
-	margin:10px;
-	
+	margin:10px;	
 }
 
 .interior_content table td{
 	border:1px dotted #999;
-	
-
 	padding:0.5em;
 }
 
@@ -291,7 +288,6 @@ div.main_content blockquote{
 	font-weight:bold;
 	margin-top:1px;
 	width: 65%;
-	
 	padding-left:10px;
 }
 
