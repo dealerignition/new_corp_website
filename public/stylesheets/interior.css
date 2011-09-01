@@ -110,6 +110,10 @@ div.sidebar li#link_quicktours{
 	background-image:url('../images/side_nav_presentations.png');
 }
 
+div.sidebar li#link_7-reasons{
+	background-image:url('http://s3.amazonaws.com/corp_website/7reasons-small.png');
+}
+
 div.sidebar li#link_banner-ads{
 	background-image:url('../images/side_nav_bannerads.png');
 }
