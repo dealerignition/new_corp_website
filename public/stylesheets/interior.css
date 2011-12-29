@@ -145,6 +145,10 @@ div.sidebar li#link_dealers-resellers-affiliates{
 div.sidebar li#link_partners{
 	background-image:url('../images/side_nav_partners.png');
 }
+/* Justin */
+div.sidebar li#link_our-values{
+	background-image:url('../images/side_nav_email.png');
+}
 
 div.sidebar li#link_our-story{
 	background-image:url('../images/side_nav_story.png');
